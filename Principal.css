@@ -1,0 +1,218 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.title-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-image {
+    max-width: 100%;
+    width: 932px; /* Limitar el ancho máximo */
+    height: auto;
+    margin: 0;
+}
+
+.toggle-mode-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s ease-in-out;
+    max-width: 150px; /* Ajustar el tamaño base según sea necesario */
+    height: auto;
+}
+
+.toggle-mode-button img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    height: auto; /* Cambiar de 100vh a auto para ajustarse al tamaño del contenido */
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100px; /* Ajustar el tamaño según sea necesario */
+    height: 100px; /* Ajustar el tamaño según sea necesario */
+}
+
+.image-wrapper img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    cursor: pointer; /* Cambiar el cursor a pointer */
+}
+
+.image {
+    opacity: 0;
+    transform: rotate(0deg);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.image.active {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+.image.reverse {
+    opacity: 1;
+    transform: rotate(360deg);
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.botón-container {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.botón-series {
+    position: relative;
+    background-color: black;
+    color: #FFCC01;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: border-radius 0.3s ease-in-out;
+}
+
+.botón-series img {
+    width: auto;
+    height: auto;
+    max-width: 30%;
+    max-height: 30%;
+}
+
+body.dark-mode .botón-series {
+    border: 2px solid white;
+}
+
+.botón-series.mostrar-imagenes {
+    border-radius: 12px 12px 0 0;
+    background-color: #800000;
+}
+
+.imagenes-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+    background-color: #800000;
+    border-radius: 12px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.imagenes-contenedor.mostrar {
+    opacity: 1;
+}
+
+.imagen-contenedor {
+    flex: 1 1 calc(20% - 6px);
+    max-width: calc(20% - 6px);
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.imagen-contenedor img {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.imagenes-contenedor.cambiar-fondo {
+    transition: background-color 0.5s ease-in-out;
+}
+
+.botón-series.cambiar-fondo {
+    transition: background-color 0.5s ease-in-out;
+}
+
+.portada-contenedor.cambiar-fondo {
+    transition: background-color 0.5s ease-in-out;
+}
+
+.portada-contenedor {
+    text-align: center;
+    margin-top: 0;
+    display: none;
+    padding: 20px;
+    border-radius: 0 0 12px 12px;
+}
+
+.portada-contenedor img {
+    max-width: 100%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .title-image {
+        width: 100%; /* Se ajusta al 100% del contenedor en dispositivos pequeños */
+    }
+    .toggle-mode-button {
+        max-width: 100px; /* Ajustar tamaño para dispositivos pequeños */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .title-image {
+        width: 75%; /* Se ajusta al 75% del contenedor en dispositivos medianos */
+    }
+    .toggle-mode-button {
+        max-width: 120px; /* Ajustar tamaño para dispositivos medianos */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 932px) {
+    .title-image {
+        width: 100%; /* Se ajusta al 100% del contenedor en pantallas de escritorio */
+    }
+    .toggle-mode-button {
+        max-width: 150px; /* Tamaño original para pantallas de escritorio */
+    }
+}
+
+@media (min-width: 933px) {
+    .title-image {
+        width: 932px; /* Mantiene el tamaño original */
+    }
+    .toggle-mode-button {
+        max-width: 150px; /* Tamaño original */
+    }
+}
