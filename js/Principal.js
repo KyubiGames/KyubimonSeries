@@ -157,3 +157,12 @@ document.addEventListener('DOMContentLoaded', () => {
     image1.addEventListener('click', switchImageAndMode);
     image2.addEventListener('click', switchImageAndMode);
 });
+
+// Obtener la referencia al elemento <audio>
+const audio = document.getElementById('audio');
+
+// Establecer el volumen al 50%
+audio.volume = 0.5;
+
+// Reproducir el audio automáticamente
+audio.play();
