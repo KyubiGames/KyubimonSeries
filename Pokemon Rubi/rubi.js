@@ -35,9 +35,9 @@ function createPokemonComponent(pokemon) {
 
   const img = document.createElement("img");
   if (pokemon.hasCustomName) {
-    img.src = `Imagenes/PokemonesConNombre/${pokemon.name.toLowerCase()}.webp`;
+    img.src = `../Imagenes/PokemonesConNombre/${pokemon.name.toLowerCase()}.webp`;
   } else {
-    img.src = `Imagenes/PokemonesSinNombre/${pokemon.name.toLowerCase()}.webp`;
+    img.src = `../Imagenes/PokemonesSinNombre/${pokemon.name.toLowerCase()}.webp`;
   }
   img.alt = pokemon.name;
   img.loading = "lazy";
@@ -47,7 +47,7 @@ function createPokemonComponent(pokemon) {
   nameDiv.className = "name";
 
   const nameImg = document.createElement("img");
-  nameImg.src = `Imagenes/Nombres/${pokemon.name.toLowerCase()}.webp`;
+  nameImg.src = `../Imagenes/Nombres/${pokemon.name.toLowerCase()}.webp`;
   nameImg.alt = pokemon.name;
   nameImg.loading = "lazy";
   nameDiv.appendChild(nameImg);
@@ -144,3 +144,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
