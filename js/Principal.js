@@ -3,7 +3,7 @@ function mostrarImagenes() {
 
     //Ejemplo de imágenes que se agregarán (puedes agregar las tuyas)
     const imagenes = [
-        { src: "Imágenes/Logos/WEBP/Pokemon Rubi.webp", url:'https://example.com/Pokémon-rubi', portada: 'Imágenes/Portadas/WEBP/Pokemon Rubi.webp', fondo: '#bf0106' },
+        { src: "Imágenes/Logos/WEBP/Pokemon Rubi.webp", url:'Pokemon Rubi/index.html', portada: 'Imágenes/Portadas/WEBP/Pokemon Rubi.webp', fondo: '#bf0106' },
         { src: 'Imágenes/Logos/WEBP/Pokeone.webp', url: 'https://example.com/pokemon-esmeralda', portada: 'Imágenes/Portadas/WEBP/Pokeone.webp', fondo: '#e5e5e5'},
         { src: 'Imágenes/Logos/WEBP/Pokemon Esmeralda.webp', url: 'https://example.com/pokemon-esmeralda', portada: 'Imágenes/Portadas/WEBP/Pokemon Esmeralda.webp', fondo: '#099556'},
         { src: 'Imágenes/Logos/WEBP/Pokemon Zafiro.webp', url: 'https://example.com/pokemon-zafiro', portada: 'Imágenes/Portadas/WEBP/Pokemon Zafiro.webp', fondo: '#1d6ab6'},
@@ -166,3 +166,4 @@ audio.volume = 0.5;
 
 // Reproducir el audio automáticamente
 audio.play();
+
