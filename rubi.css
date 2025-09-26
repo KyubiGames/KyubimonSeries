@@ -1,0 +1,221 @@
+/* Fondo global oscuro */
+body {
+  background-color: #121212; /* negro/gris oscuro */
+  color: #fff;              /* texto claro por defecto */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;        /* asegura cubrir toda la pantalla */
+}
+
+#Imagendeltítulo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;   /* 👈 antes 500px */
+  height: auto;
+  margin-bottom: 15px; /* un poco más de espacio debajo */
+}
+
+button {
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+  border: 5px solid white;   /* 🔹 Borde blanco agregado */
+  padding: 16px 32px;
+  Color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button::before {
+  Content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    red, blue, white, Green, blue, red, blue, deeppink, blue
+  );
+  background-size: 800%;
+  border-radius: 10px;
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing{
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.filter-container {
+  display: none; /* Oculto al inicio */
+  margin: auto auto 50px auto; /* arriba - derecha - abajo - izquierda */
+  max-width: 2200px;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 1.6s ease, transform 1.6s ease;
+}
+
+/* Estado visible */
+.filter-container.visible {
+  display: flex;   /* cuando se muestre, se vuelve flex */
+  opacity: 1;
+  transform: scale(1);
+}
+
+.filter-container img {
+  width: 240px;
+  height: 48px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.filter-container img:hover {
+  transform: scale(1.05);
+}
+
+#pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* mejor centrado que space-between */
+  margin: 0 auto;
+  max-width: 90%;
+  background-color: transparent; /* 👈 fondo siempre transparente */
+}
+
+.pokemon {
+  width: 20%;              /* 5 por fila */
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  opacity: 0;
+  transform: scale(0.95); /* opcional: un poco más chico */
+  transition: opacity 1.6s ease, transform 1.6s ease;
+}
+
+/* Estado final visible */
+.pokemon.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Imagen del Pokémon */
+.pokemon img {
+  width: 180px;   /* tamaño fijo para todos */
+  height: 180px;  /* cuadrado para que quede alineado */
+  object-fit: contain; /* evita deformar imágenes */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Contenedor del nombre */
+.name {
+  margin-top: 10px;
+}
+
+/* Imagen del nombre */
+.name img {
+  width: 200px;   /* más grande */
+  height: auto;   /* mantiene proporción */
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+}
+
+.search-container {
+  background-image: url('Imagenes/Marco De Busqueda.PNG');
+  background-size: 100% 100%;   /* 👈 hace que se estire proporcionalmente al tamaño */
+  width: 520px;                 /* 👈 más ancho */
+  height: 85px;                 /* 👈 más alto */
+  margin-bottom: 50px;
+  position: relative;
+}
+
+input[type="search"] {
+  width: calc(100% - 40px); 
+  height: calc(100% - 20px); 
+  padding: 0 10px;
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 20px;                   /* ajusta horizontal */
+  transform: translateY(-65%);  /* lo centra verticalmente */
+
+  font-size: 35px;              /* 👈 más grande */
+  letter-spacing: 4px;          /* 👈 letras más separadas */
+  font-family: "FuentePokemon";
+
+  color: #ffcc01;
+  -webkit-text-fill-color: #ffcc01;
+  -webkit-text-stroke: 1px #2a75bb;
+  text-shadow: 3px 3px 0 #2a75bb,
+               5px 5px 0 #0a285f;
+}
+
+input[type="search"]::placeholder {
+  font-size: 35px;
+  letter-spacing: 4px;
+}
+
+input[type="search"]:focus {
+  outline: none; /* Eliminar el contorno al enfocar */
+}
+
+/* Ajustes adicionales para el botón de búsqueda si lo necesitas */
+.search-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px; /* Ancho del botón */
+  height: 100%; /* Altura del botón */
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo del botón */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  cursor: pointer; /* Cambiar cursor al pasar el ratón */
+}
+
+/* Estilos para el icono de búsqueda (puedes cambiarlo según necesites) */
+.search-icon {
+  width: 20px; /* Ancho del icono */
+  height: 20px; /* Altura del icono */
+  margin: auto; /* Centrar el icono verticalmente */
+  fill: white; /* Color del icono */
+}
+
+@font-face {
+  font-family: "FuentePokemon";
+  src: url("Fuentes/pokemonsolid.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

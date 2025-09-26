@@ -1,37 +1,59 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kyubimon Series</title>
-        <link rel="icon" type="image/x-icon" href="Imágenes/Logo/Logo.webp">
-        <link href="CSS/Principal.css" rel="stylesheet"/>
-    </head>
-    <body>
-        <div class="header">
-            <div class="title-container">
-            <img src="Imágenes/Títulos/WEBP/Kyubimon Series.webp" alt="Kyubimon Series" class="title-image">
-        </div>
-            <div class="image-container">
-                <div class="image-wrapper">
-                    <img id="image1" src="Imágenes/Pokeballs/WEBP/Honorball.webp" alt="Imagen inicial" class="image active">
-                    <img id="image2" src="Imágenes/Pokeballs/WEBP/Luxury Ball.webp" alt="Imagen secundaria" class="image">        
-                </div>
-            </div>
-        </div>
-        <div class="botón-container">
-            <button class="botón-series" id="botón-series" onclick="toggleMostrarOcultarImagenes()">
-                <img src = "Imágenes/Títulos/WEBP/Lista De Series.webp">
-            </button>
-        </div>
-        <div id="imagenes-contenedor" class="imagenes-contenedor"></div>
-        <div id="portada-contenedor" class="portada-contenedor"></div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Pokemon</title>
+    <link rel="stylesheet" type="text/css" href="rubi.css"></link>
+  </head>
+  <body>
+    <img src= "Imagenes/Título.png" alt="Title" id="Imagendeltítulo">
 
-        <audio id="audio" autoplay controls>
-            <source src="Música/Pokémon Atrapalos Ya! Full Opening.mp3" type="audio/mp3">
-            Tu navegador no soporta el elemento de audio.
-        </audio>
-        
-        <script src="js/Principal.js"></script>
-    </body>
+    <div class="search-container">
+      <input type="search" placeholder="Buscar Pokemon">
+    </div>
+
+    <button id="filter-btn">Filtros</button>
+
+    <!-- Contenedor de filtros (oculto por defecto con CSS) -->
+    <div class="filter-container" style="display:none"></div>
+
+    <!-- Contenedor donde van los pokemones -->
+    <div id="pokemon-container"></div>
+
+    <!-- Script para manejar los filtros -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const filterButton = document.getElementById("filter-btn");
+        const filterContainer = document.querySelector(".filter-container");
+
+        // Lista de tipos
+        const tipos = [
+          "Alfabético", "Acero", "Agua", "Bicho", "Dragón", "Eléctrico", "Fantasma", "Fuego",
+          "Hada", "Hielo", "Lucha", "Normal", "Planta", "Psíquico", "Roca",
+          "Siniestro", "Tierra", "Veneno", "Volador"
+        ];
+
+        // Generar dinámicamente las imágenes
+        tipos.forEach(tipo => {
+          const img = document.createElement("img");
+          img.src = `Imagenes/Tipos/${tipo}.png`;
+          img.alt = tipo;
+          filterContainer.appendChild(img);
+        });
+
+        // Mostrar / Ocultar al presionar el botón
+        filterButton.addEventListener("click", () => {
+          if (filterContainer.style.display === "none" || filterContainer.style.display === "") {
+            filterContainer.style.display = "flex";   // 👈 solo cuando hago click
+          } else {
+            filterContainer.style.display = "none";
+          }
+        });
+      });
+    </script>
+
+    <!-- Script que carga y muestra los pokemones -->
+    <script src="rubi.js"></script>
+  </body>
 </html>
