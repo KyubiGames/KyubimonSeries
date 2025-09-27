@@ -1,6 +1,6 @@
 /* Fondo global oscuro */
 body {
-  background-color: #800000; /* Rojo */
+  background-color: #680000; /* Rojo */
   color: #fff;              /* texto claro por defecto */
   margin: 0;
   padding: 0;
@@ -220,3 +220,4 @@ input[type="search"]:focus {
   font-style: normal;
 
 }
+
