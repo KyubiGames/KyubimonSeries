@@ -218,6 +218,75 @@ input[type="search"]:focus {
   src: url("Fuentes/pokemonsolid.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-
 }
 
+/* ==================== RESPONSIVE ==================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  #Imagendeltítulo { max-width: 500px; }
+
+  .pokemon { width: 33.33%; } /* 3 por fila */
+  .pokemon img { width: 150px; height: 150px; }
+  .name img { width: 170px; }
+
+  .filter-container img { width: 180px; height: 40px; }
+
+  .search-container { width: 400px; height: 70px; }
+  input[type="search"] { font-size: 26px; letter-spacing: 2px; }
+  input[type="search"]::placeholder { font-size: 26px; }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+  #Imagendeltítulo { max-width: 350px; }
+
+  .pokemon { width: 50%; } /* 2 por fila */
+  .pokemon img { width: 120px; height: 120px; }
+  .name img { width: 140px; }
+
+  .filter-container img { width: 140px; height: 30px; } /* 2 por fila */
+
+  button {
+    width: 150px;
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+
+  /* 🔹 Barra de búsqueda más ancha */
+  .search-container { 
+    width: 340px;   /* antes 280px */
+    height: 65px; 
+  }
+
+  input[type="search"] { 
+    font-size: 32px; 
+    letter-spacing: 1px; 
+  }
+
+  input[type="search"]::placeholder { 
+    font-size: 40px; 
+  }
+}
+
+/* Celulares muy pequeños */
+@media (max-width: 480px) {
+  .pokemon img { width: 100px; height: 100px; }
+  .name img { width: 120px; }
+
+  .filter-container img { width: 120px; height: 28px; }
+
+  /* 🔹 Barra un poco más ancha para textos largos */
+  .search-container { 
+    width: 280px;   /* antes 220px */
+    height: 55px; 
+  }
+
+  input[type="search"] { 
+    font-size: 18px; 
+  }
+
+  input[type="search"]::placeholder { 
+    font-size: 18px; 
+  }
+}
