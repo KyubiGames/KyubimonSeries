@@ -2,7 +2,7 @@
   {
     "name": "Treecko",
     "type": "Planto",
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "treecko.png"
   },
   {
