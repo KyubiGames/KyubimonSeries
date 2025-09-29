@@ -1,7 +1,7 @@
 [
   {
     "name": "Treecko",
-    "type": "Planto",
+    "type": "Planta",
     "hasCustomName": false,
     "image": "treecko.png"
   },
@@ -1476,4 +1476,5 @@
   }
 
 ]
+
 
