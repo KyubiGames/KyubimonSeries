@@ -2,7 +2,7 @@
   {
     "name": "Treecko",
     "type": "Planta",
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "treecko.png"
   },
   {
@@ -1474,8 +1474,4 @@
     "hasCustomName": false,
     "image": "Deoxys.png"
   }
-
 ]
-
-
-
