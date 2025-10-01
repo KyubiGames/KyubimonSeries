@@ -8,7 +8,7 @@
   {
     "name": "Grovyle",
     "type": "Planta",
-    "hasCustomName": true,
+    "hasCustomName": false,
     "image": "grovyle.png"
   },
   {
