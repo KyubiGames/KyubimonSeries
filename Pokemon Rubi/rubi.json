@@ -14,7 +14,7 @@
   {
     "name": "Sceptile",
     "type": "Planta",
-    "hasCustomName": true,
+    "hasCustomName": false,
     "image": "Sceptile.png"
   },
   {
