@@ -65,7 +65,7 @@ function createPokemonComponent(pokemon) {
 }
 
 // Cargar el JSON y mostrar todos al inicio
-fetch('rubi.json')
+fetch('https://raw.githubusercontent.com/KyubiGames/KyubimonSeries/main/Pokemon%20Rubi/rubi.json')
   .then(response => response.json())
   .then(data => {
     allPokemons = data;
@@ -144,4 +144,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
 
