@@ -65,7 +65,7 @@ function createPokemonComponent(pokemon) {
 }
 
 // Cargar el JSON y mostrar todos al inicio
-fetch('https://raw.githubusercontent.com/KyubiGames/KyubimonSeries/main/Pokemon%20Rubi/rubi.json')
+fetch('https://raw.githubusercontent.com/KyubiGames/KyubimonSeries/main/pokeone/pokeone.json')
   .then(response => response.json())
   .then(data => {
     allPokemons = data;
