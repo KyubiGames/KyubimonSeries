@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="rubi.css"></link>
   </head>
   <body>
-    <img src= "Imagenes/Título.png" alt="Title" id="Imagendeltítulo">
+    <img src= "Imagenes/Título.webp" alt="Title" id="Imagendeltítulo">
 
     <div class="search-container">
       <input type="search" placeholder="buscar pokemon">
@@ -37,7 +37,7 @@
         // Generar dinámicamente las imágenes
         tipos.forEach(tipo => {
           const img = document.createElement("img");
-          img.src = `Imagenes/Tipos/${tipo}.png`;
+          img.src = `Imagenes/Tipos/${tipo}.webp`;
           img.alt = tipo;
           filterContainer.appendChild(img);
         });
