@@ -972,10 +972,10 @@
     "image": "furret.webp"
   },
   {
-    "name": "HootHoot",
+    "name": "Hoothoot",
     "type": ["Normal", "Volador"],
     "hasCustomName": false,
-    "image": "hoothoot.webp"
+    "image": "Hoothoot.webp"
   },
   {
     "name": "Noctowl",
