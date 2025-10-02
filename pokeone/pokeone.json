@@ -3,1284 +3,1284 @@
     "name": "Bulbasaur",
     "type": ["Planta", "Veneno"],
     "hasCustomName": false,
-    "image": "bulbasaur.png"
+    "image": "bulbasaur.webp"
   },
   {
     "name": "Ivysaur",
     "type": ["Planta", "Veneno"],
     "hasCustomName": false,
-    "image": "ivysaur.png"
+    "image": "ivysaur.webp"
   },
   {
     "name": "Venusaur",
     "type": ["Planta", "Veneno"],
     "hasCustomName": false,
-    "image": "venusaur.png"
+    "image": "venusaur.webp"
   },
   {
     "name": "Charmander",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "charmander.png"
+    "image": "charmander.webp"
   },
   {
     "name": "Charmeleon",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "charmeleon.png"
+    "image": "charmeleon.webp"
   },
   {
     "name": "Charizard",
     "type": ["Fuego", "Volador"],
     "hasCustomName": false,
-    "image": "charizard.png"
+    "image": "charizard.webp"
   },
   {
     "name": "Squirtle",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "squirtle.png"
+    "image": "squirtle.webp"
   },
   {
     "name": "Wartortle",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "wartortle.png"
+    "image": "wartortle.webp"
   },
   {
     "name": "Blastoise",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "blastoise.png"
+    "image": "blastoise.webp"
   },
   {
     "name": "Caterpie",
     "type": ["Bicho"],
     "hasCustomName": false,
-    "image": "caterpie.png"
+    "image": "caterpie.webp"
   },
   {
     "name": "Metapod",
     "type": ["Bicho"],
     "hasCustomName": false,
-    "image": "metapod.png"
+    "image": "metapod.webp"
   },
   {
     "name": "Butterfree",
     "type": ["Bicho", "Volador"],
     "hasCustomName": false,
-    "image": "butterfree.png"
+    "image": "butterfree.webp"
   },
   {
     "name": "Weedle",
     "type": ["Bicho", "Veneno"],
     "hasCustomName": false,
-    "image": "weedle.png"
+    "image": "weedle.webp"
   },
   {
     "name": "Kakuna",
     "type": ["Bicho", "Veneno"],
     "hasCustomName": false,
-    "image": "kakuna.png"
+    "image": "kakuna.webp"
   },
   {
     "name": "Beedrill",
     "type": ["Bicho", "Veneno"],
     "hasCustomName": false,
-    "image": "beedrill.png"
+    "image": "beedrill.webp"
   },
   {
     "name": "Pidgey",
     "type": ["Normal", "Volador"],
     "hasCustomName": false,
-    "image": "pidgey.png"
+    "image": "pidgey.webp"
   },
   {
     "name": "Pidgeotto",
     "type": ["Normal", "Volador"],
     "hasCustomName": false,
-    "image": "pidgeotto.png"
+    "image": "pidgeotto.webp"
   },
   {
     "name": "Pidgeot",
     "type": ["Normal", "Volador"],
     "hasCustomName": false,
-    "image": "pidgeot.png"
+    "image": "pidgeot.webp"
   },
   {
     "name": "Rattata",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "rattata.png"
+    "image": "rattata.webp"
   },
   {
     "name": "Raticate",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "raticate.png"
+    "image": "raticate.webp"
   },
   {
     "name": "Spearow",
     "type": ["Normal", "Volador"],
     "hasCustomName": false,
-    "image": "spearow.png"
+    "image": "spearow.webp"
   },
   {
     "name": "Fearow",
     "type": ["Normal", "Volador"],
     "hasCustomName": false,
-    "image": "fearow.png"
+    "image": "fearow.webp"
   },
   {
     "name": "Ekans",
     "type": ["Veneno"],
     "hasCustomName": false,
-    "image": "ekans.png"
+    "image": "ekans.webp"
   },
   {
     "name": "Arbok",
     "type": ["Veneno"],
     "hasCustomName": false,
-    "image": "arbok.png"
+    "image": "arbok.webp"
   },
   {
     "name": "Pikachu",
     "type": ["Eléctrico"],
     "hasCustomName": false,
-    "image": "pikachu.png"
+    "image": "pikachu.webp"
   },
   {
     "name": "Raichu",
     "type": ["Eléctrico"],
     "hasCustomName": false,
-    "image": "raichu.png"
+    "image": "raichu.webp"
   },
   {
     "name": "Sandshrew",
     "type": ["Tierra"],
     "hasCustomName": false,
-    "image": "sandshrew.png"
+    "image": "sandshrew.webp"
   },
   {
     "name": "Sandslash",
     "type": ["Tierra"],
     "hasCustomName": false,
-    "image": "sandslash.png"
+    "image": "sandslash.webp"
   },
   {
     "name": "Nidoran♀",
     "type": ["Veneno"],
     "hasCustomName": false,
-    "image": "nidoranf.png"
+    "image": "nidoranf.webp"
   },
   {
     "name": "Nidorina",
     "type": ["Veneno"],
     "hasCustomName": false,
-    "image": "nidorina.png"
+    "image": "nidorina.webp"
   },
   {
     "name": "Nidoqueen",
     "type": ["Veneno", "Tierra"],
     "hasCustomName": false,
-    "image": "nidoqueen.png"
+    "image": "nidoqueen.webp"
   },
   {
     "name": "Nidoran♂",
     "type": ["Veneno"],
     "hasCustomName": false,
-    "image": "nidoranm.png"
+    "image": "nidoranm.webp"
   },
   {
     "name": "Nidorino",
     "type": ["Veneno"],
     "hasCustomName": false,
-    "image": "nidorino.png"
+    "image": "nidorino.webp"
   },
   {
     "name": "Nidoking",
     "type": ["Veneno", "Tierra"],
     "hasCustomName": false,
-    "image": "nidoking.png"
+    "image": "nidoking.webp"
   },
   {
     "name": "Clefairy",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "clefairy.png"
+    "image": "clefairy.webp"
   },
   {
     "name": "Clefable",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "clefable.png"
+    "image": "clefable.webp"
   },
   {
     "name": "Vulpix",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "vulpix.png"
+    "image": "vulpix.webp"
   },
   {
     "name": "Ninetales",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "ninetales.png"
+    "image": "ninetales.webp"
   },
   {
     "name": "Jigglypuff",
     "type": ["Normal", "Hada"],
     "hasCustomName": false,
-    "image": "jigglypuff.png"
+    "image": "jigglypuff.webp"
   },
   {
     "name": "Wigglytuff",
     "type": ["Normal", "Hada"],
     "hasCustomName": false,
-    "image": "wigglytuff.png"
+    "image": "wigglytuff.webp"
   },
   {
     "name": "Zubat",
     "type": ["Veneno", "Volador"],
     "hasCustomName": false,
-    "image": "zubat.png"
+    "image": "zubat.webp"
   },
   {
     "name": "Golbat",
     "type": ["Veneno", "Volador"],
     "hasCustomName": false,
-    "image": "golbat.png"
+    "image": "golbat.webp"
   },
   {
     "name": "Oddish",
     "type": ["Planta", "Veneno"],
     "hasCustomName": false,
-    "image": "oddish.png"
+    "image": "oddish.webp"
   },
   {
     "name": "Gloom",
     "type": ["Planta", "Veneno"],
     "hasCustomName": false,
-    "image": "gloom.png"
+    "image": "gloom.webp"
   },
   {
     "name": "Vileplume",
     "type": ["Planta", "Veneno"],
     "hasCustomName": false,
-    "image": "vileplume.png"
+    "image": "vileplume.webp"
   },
   {
     "name": "Paras",
     "type": ["Bicho", "Planta"],
     "hasCustomName": false,
-    "image": "paras.png"
+    "image": "paras.webp"
   },
   {
     "name": "Parasect",
     "type": ["Bicho", "Planta"],
     "hasCustomName": false,
-    "image": "parasect.png"
+    "image": "parasect.webp"
   },
   {
     "name": "Venonat",
     "type": ["Bicho", "Veneno"],
     "hasCustomName": false,
-    "image": "venonat.png"
+    "image": "venonat.webp"
   },
   {
     "name": "Venomoth",
     "type": ["Bicho", "Veneno"],
     "hasCustomName": false,
-    "image": "venomoth.png"
+    "image": "venomoth.webp"
   },
   {
     "name": "Diglett",
     "type": ["Tierra"],
     "hasCustomName": false,
-    "image": "diglett.png"
+    "image": "diglett.webp"
   },
   {
     "name": "Dugtrio",
     "type": ["Tierra"],
     "hasCustomName": false,
-    "image": "dugtrio.png"
+    "image": "dugtrio.webp"
   },
   {
     "name": "Meowth",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "meowth.png"
+    "image": "meowth.webp"
   },
   {
     "name": "Persian",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "persian.png"
+    "image": "persian.webp"
   },
   {
     "name": "Psyduck",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "psyduck.png"
+    "image": "psyduck.webp"
   },
   {
     "name": "Golduck",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "golduck.png"
+    "image": "golduck.webp"
   },
   {
     "name": "Mankey",
     "type": ["Lucha"],
     "hasCustomName": false,
-    "image": "mankey.png"
+    "image": "mankey.webp"
   },
   {
     "name": "Primeape",
     "type": ["Lucha"],
     "hasCustomName": false,
-    "image": "primeape.png"
+    "image": "primeape.webp"
   },
   {
     "name": "Growlithe",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "growlithe.png"
+    "image": "growlithe.webp"
   },
   {
     "name": "Arcanine",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "arcanine.png"
+    "image": "arcanine.webp"
   },
   {
     "name": "Poliwag",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "poliwag.png"
+    "image": "poliwag.webp"
   },
   {
     "name": "Poliwhirl",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "poliwhirl.png"
+    "image": "poliwhirl.webp"
   },
   {
     "name": "Poliwrath",
     "type": ["Agua", "Lucha"],
     "hasCustomName": false,
-    "image": "poliwrath.png"
+    "image": "poliwrath.webp"
   },
   {
     "name": "Abra",
     "type": ["Psíquico"],
     "hasCustomName": false,
-    "image": "abra.png"
+    "image": "abra.webp"
   },
   {
     "name": "Kadabra",
     "type": ["Psíquico"],
     "hasCustomName": false,
-    "image": "kadabra.png"
+    "image": "kadabra.webp"
   },
   {
     "name": "Alakazam",
     "type": ["Psíquico"],
     "hasCustomName": false,
-    "image": "alakazam.png"
+    "image": "alakazam.webp"
   },
   {
     "name": "Machop",
     "type": ["Lucha"],
     "hasCustomName": false,
-    "image": "machop.png"
+    "image": "machop.webp"
   },
   {
     "name": "Machoke",
     "type": ["Lucha"],
     "hasCustomName": false,
-    "image": "machoke.png"
+    "image": "machoke.webp"
   },
   {
     "name": "Machamp",
     "type": ["Lucha"],
     "hasCustomName": false,
-    "image": "machamp.png"
+    "image": "machamp.webp"
   },
   {
     "name": "Bellsprout",
     "type": ["Planta", "Veneno"],
     "hasCustomName": false,
-    "image": "bellsprout.png"
+    "image": "bellsprout.webp"
   },
   {
     "name": "Weepinbell",
     "type": ["Planta", "Veneno"],
     "hasCustomName": false,
-    "image": "weepinbell.png"
+    "image": "weepinbell.webp"
   },
   {
     "name": "Victreebel",
     "type": ["Planta", "Veneno"],
     "hasCustomName": false,
-    "image": "victreebel.png"
+    "image": "victreebel.webp"
   },
   {
     "name": "Tentacool",
     "type": ["Agua", "Veneno"],
     "hasCustomName": false,
-    "image": "tentacool.png"
+    "image": "tentacool.webp"
   },
   {
     "name": "Tentacruel",
     "type": ["Agua", "Veneno"],
     "hasCustomName": false,
-    "image": "tentacruel.png"
+    "image": "tentacruel.webp"
   },
   {
     "name": "Geodude",
     "type": ["Roca", "Tierra"],
     "hasCustomName": false,
-    "image": "geodude.png"
+    "image": "geodude.webp"
   },
   {
     "name": "Graveler",
     "type": ["Roca", "Tierra"],
     "hasCustomName": false,
-    "image": "graveler.png"
+    "image": "graveler.webp"
   },
   {
     "name": "Golem",
     "type": ["Roca", "Tierra"],
     "hasCustomName": false,
-    "image": "golem.png"
+    "image": "golem.webp"
   },
   {
     "name": "Ponyta",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "ponyta.png"
+    "image": "ponyta.webp"
   },
   {
     "name": "Rapidash",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "rapidash.png"
+    "image": "rapidash.webp"
   },
   {
     "name": "Slowpoke",
     "type": ["Agua", "Psíquico"],
     "hasCustomName": false,
-    "image": "slowpoke.png"
+    "image": "slowpoke.webp"
   },
   {
     "name": "Slowbro",
     "type": ["Agua", "Psíquico"],
     "hasCustomName": false,
-    "image": "slowbro.png"
+    "image": "slowbro.webp"
   },
   {
     "name": "Magnemite",
     "type": ["Eléctrico", "Acero"],
     "hasCustomName": false,
-    "image": "magnemite.png"
+    "image": "magnemite.webp"
   },
   {
     "name": "Magneton",
     "type": ["Eléctrico", "Acero"],
     "hasCustomName": false,
-    "image": "magneton.png"
+    "image": "magneton.webp"
   },
   {
     "name": "Farfetch'd",
     "type": ["Normal", "Volador"],
     "hasCustomName": false,
-    "image": "farfetchd.png"
+    "image": "farfetchd.webp"
   },
   {
     "name": "Doduo",
     "type": ["Normal", "Volador"],
     "hasCustomName": false,
-    "image": "doduo.png"
+    "image": "doduo.webp"
   },
   {
     "name": "Dodrio",
     "type": ["Normal", "Volador"],
     "hasCustomName": false,
-    "image": "dodrio.png"
+    "image": "dodrio.webp"
   },
   {
     "name": "Seel",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "seel.png"
+    "image": "seel.webp"
   },
   {
     "name": "Dewgong",
     "type": ["Agua", "Hielo"],
     "hasCustomName": false,
-    "image": "dewgong.png"
+    "image": "dewgong.webp"
   },
   {
     "name": "Grimer",
     "type": ["Veneno"],
     "hasCustomName": false,
-    "image": "grimer.png"
+    "image": "grimer.webp"
   },
   {
     "name": "Muk",
     "type": ["Veneno"],
     "hasCustomName": false,
-    "image": "muk.png"
+    "image": "muk.webp"
   },
   {
     "name": "Shellder",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "shellder.png"
+    "image": "shellder.webp"
   },
   {
     "name": "Cloyster",
     "type": ["Agua", "Hielo"],
     "hasCustomName": false,
-    "image": "cloyster.png"
+    "image": "cloyster.webp"
   },
   {
     "name": "Gastly",
     "type": ["Fantasma", "Veneno"],
     "hasCustomName": false,
-    "image": "gastly.png"
+    "image": "gastly.webp"
   },
   {
     "name": "Haunter",
     "type": ["Fantasma", "Veneno"],
     "hasCustomName": false,
-    "image": "haunter.png"
+    "image": "haunter.webp"
   },
   {
     "name": "Gengar",
     "type": ["Fantasma", "Veneno"],
     "hasCustomName": false,
-    "image": "gengar.png"
+    "image": "gengar.webp"
   },
   {
     "name": "Onix",
     "type": ["Roca", "Tierra"],
     "hasCustomName": false,
-    "image": "onix.png"
+    "image": "onix.webp"
   },
   {
     "name": "Drowzee",
     "type": ["Psíquico"],
     "hasCustomName": false,
-    "image": "drowzee.png"
+    "image": "drowzee.webp"
   },
   {
     "name": "Hypno",
     "type": ["Psíquico"],
     "hasCustomName": false,
-    "image": "hypno.png"
+    "image": "hypno.webp"
   },
   {
     "name": "Krabby",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "krabby.png"
+    "image": "krabby.webp"
   },
   {
     "name": "Kingler",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "kingler.png"
+    "image": "kingler.webp"
   },
   {
     "name": "Voltorb",
     "type": ["Eléctrico"],
     "hasCustomName": false,
-    "image": "voltorb.png"
+    "image": "voltorb.webp"
   },
   {
     "name": "Electrode",
     "type": ["Eléctrico"],
     "hasCustomName": false,
-    "image": "electrode.png"
+    "image": "electrode.webp"
   },
   {
     "name": "Exeggcute",
     "type": ["Planta", "Psíquico"],
     "hasCustomName": false,
-    "image": "exeggcute.png"
+    "image": "exeggcute.webp"
   },
   {
     "name": "Exeggutor",
     "type": ["Planta", "Psíquico"],
     "hasCustomName": false,
-    "image": "exeggutor.png"
+    "image": "exeggutor.webp"
   },
   {
     "name": "Cubone",
     "type": ["Tierra"],
     "hasCustomName": false,
-    "image": "cubone.png"
+    "image": "cubone.webp"
   },
   {
     "name": "Marowak",
     "type": ["Tierra"],
     "hasCustomName": false,
-    "image": "marowak.png"
+    "image": "marowak.webp"
   },
   {
     "name": "Hitmonlee",
     "type": ["Lucha"],
     "hasCustomName": false,
-    "image": "hitmonlee.png"
+    "image": "hitmonlee.webp"
   },
   {
     "name": "Hitmonchan",
     "type": ["Lucha"],
     "hasCustomName": false,
-    "image": "hitmonchan.png"
+    "image": "hitmonchan.webp"
   },
   {
     "name": "Lickitung",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "lickitung.png"
+    "image": "lickitung.webp"
   },
   {
     "name": "Koffing",
     "type": ["Veneno"],
     "hasCustomName": false,
-    "image": "koffing.png"
+    "image": "koffing.webp"
   },
   {
     "name": "Weezing",
     "type": ["Veneno"],
     "hasCustomName": false,
-    "image": "weezing.png"
+    "image": "weezing.webp"
   },
   {
     "name": "Rhyhorn",
     "type": ["Tierra", "Roca"],
     "hasCustomName": false,
-    "image": "rhyhorn.png"
+    "image": "rhyhorn.webp"
   },
   {
     "name": "Rhydon",
     "type": ["Tierra", "Roca"],
     "hasCustomName": false,
-    "image": "rhydon.png"
+    "image": "rhydon.webp"
   },
   {
     "name": "Chansey",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "chansey.png"
+    "image": "chansey.webp"
   },
   {
     "name": "Tangela",
     "type": ["Planta"],
     "hasCustomName": false,
-    "image": "tangela.png"
+    "image": "tangela.webp"
   },
   {
     "name": "Kangaskhan",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "kangaskhan.png"
+    "image": "kangaskhan.webp"
   },
   {
     "name": "Horsea",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "horsea.png"
+    "image": "horsea.webp"
   },
   {
     "name": "Seadra",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "seadra.png"
+    "image": "seadra.webp"
   },
   {
     "name": "Goldeen",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "goldeen.png"
+    "image": "goldeen.webp"
   },
   {
     "name": "Seaking",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "seaking.png"
+    "image": "seaking.webp"
   },
   {
     "name": "Staryu",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "staryu.png"
+    "image": "staryu.webp"
   },
   {
     "name": "Starmie",
     "type": ["Agua", "Psíquico"],
     "hasCustomName": false,
-    "image": "starmie.png"
+    "image": "starmie.webp"
   },
   {
     "name": "Mr. Mime",
     "type": ["Hada", "Psíquico"],
     "hasCustomName": false,
-    "image": "mrmime.png"
+    "image": "mrmime.webp"
   },
   {
     "name": "Scyther",
     "type": ["Bicho", "Volador"],
     "hasCustomName": false,
-    "image": "scyther.png"
+    "image": "scyther.webp"
   },
   {
     "name": "Jynx",
     "type": ["Hielo", "Psíquico"],
     "hasCustomName": false,
-    "image": "jynx.png"
+    "image": "jynx.webp"
   },
   {
     "name": "Electabuzz",
     "type": ["Eléctrico"],
     "hasCustomName": false,
-    "image": "electabuzz.png"
+    "image": "electabuzz.webp"
   },
   {
     "name": "Magmar",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "magmar.png"
+    "image": "magmar.webp"
   },
   {
     "name": "Pinsir",
     "type": ["Bicho"],
     "hasCustomName": false,
-    "image": "pinsir.png"
+    "image": "pinsir.webp"
   },
   {
     "name": "Tauros",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "tauros.png"
+    "image": "tauros.webp"
   },
   {
     "name": "Magikarp",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "magikarp.png"
+    "image": "magikarp.webp"
   },
   {
     "name": "Gyarados",
     "type": ["Agua", "Volador"],
     "hasCustomName": false,
-    "image": "gyarados.png"
+    "image": "gyarados.webp"
   },
   {
     "name": "Lapras",
     "type": ["Agua", "Hielo"],
     "hasCustomName": false,
-    "image": "lapras.png"
+    "image": "lapras.webp"
   },
   {
     "name": "Ditto",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "ditto.png"
+    "image": "ditto.webp"
   },
   {
     "name": "Eevee",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "eevee.png"
+    "image": "eevee.webp"
   },
   {
     "name": "Vaporeon",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "vaporeon.png"
+    "image": "vaporeon.webp"
   },
   {
     "name": "Jolteon",
     "type": ["Eléctrico"],
     "hasCustomName": false,
-    "image": "jolteon.png"
+    "image": "jolteon.webp"
   },
   {
     "name": "Flareon",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "flareon.png"
+    "image": "flareon.webp"
   },
   {
     "name": "Porygon",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "porygon.png"
+    "image": "porygon.webp"
   },
   {
     "name": "Omanyte",
     "type": ["Roca", "Agua"],
     "hasCustomName": false,
-    "image": "omanyte.png"
+    "image": "omanyte.webp"
   },
   {
     "name": "Omastar",
     "type": ["Roca", "Agua"],
     "hasCustomName": false,
-    "image": "omastar.png"
+    "image": "omastar.webp"
   },
   {
     "name": "Kabuto",
     "type": ["Roca", "Agua"],
     "hasCustomName": false,
-    "image": "kabuto.png"
+    "image": "kabuto.webp"
   },
   {
     "name": "Kabutops",
     "type": ["Roca", "Agua"],
     "hasCustomName": false,
-    "image": "kabutops.png"
+    "image": "kabutops.webp"
   },
   {
     "name": "Aerodactyl",
     "type": ["Roca", "Volador"],
     "hasCustomName": false,
-    "image": "aerodactyl.png"
+    "image": "aerodactyl.webp"
   },
   {
     "name": "Snorlax",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "snorlax.png"
+    "image": "snorlax.webp"
   },
   {
     "name": "Articuno",
     "type": ["Hielo", "Volador"],
     "hasCustomName": false,
-    "image": "articuno.png"
+    "image": "articuno.webp"
   },
   {
     "name": "Zapdos",
     "type": ["Eléctrico", "Volador"],
     "hasCustomName": false,
-    "image": "zapdos.png"
+    "image": "zapdos.webp"
   },
   {
     "name": "Moltres",
     "type": ["Fuego", "Volador"],
     "hasCustomName": false,
-    "image": "moltres.png"
+    "image": "moltres.webp"
   },
   {
     "name": "Dratini",
     "type": ["Dragón"],
     "hasCustomName": false,
-    "image": "dratini.png"
+    "image": "dratini.webp"
   },
   {
     "name": "Dragonair",
     "type": ["Dragón"],
     "hasCustomName": false,
-    "image": "dragonair.png"
+    "image": "dragonair.webp"
   },
   {
     "name": "Dragonite",
     "type": ["Dragón", "Volador"],
     "hasCustomName": false,
-    "image": "dragonite.png"
+    "image": "dragonite.webp"
   },
   {
     "name": "Mewtwo",
     "type": ["Psíquico"],
     "hasCustomName": false,
-    "image": "mewtwo.png"
+    "image": "mewtwo.webp"
   },
   {
     "name": "Mew",
     "type": ["Psíquico"],
     "hasCustomName": false,
-    "image": "mew.png"
+    "image": "mew.webp"
   },
   {
     "name": "Chikorita",
     "type": ["Planta"],
     "hasCustomName": false,
-    "image": "chikorita.png"
+    "image": "chikorita.webp"
   },
   {
     "name": "Bayleef",
     "type": ["Planta"],
     "hasCustomName": false,
-    "image": "bayleef.png"
+    "image": "bayleef.webp"
   },
   {
     "name": "Meganium",
     "type": ["Planta"],
     "hasCustomName": false,
-    "image": "meganium.png"
+    "image": "meganium.webp"
   },
   {
     "name": "Cyndaquil",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "cyndaquil.png"
+    "image": "cyndaquil.webp"
   },
   {
     "name": "Quilava",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "quilava.png"
+    "image": "quilava.webp"
   },
   {
     "name": "Typhlosion",
     "type": ["Fuego"],
     "hasCustomName": false,
-    "image": "typhlosion.png"
+    "image": "typhlosion.webp"
   },
   {
     "name": "Totodile",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "totodile.png"
+    "image": "totodile.webp"
   },
   {
     "name": "Croconaw",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "croconaw.png"
+    "image": "croconaw.webp"
   },
   {
     "name": "Feraligatr",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "feraligatr.png"
+    "image": "feraligatr.webp"
   },
   {
     "name": "Sentret",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "sentret.png"
+    "image": "sentret.webp"
   },
   {
     "name": "Furret",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "furret.png"
+    "image": "furret.webp"
   },
   {
     "name": "HootHoot",
     "type": ["Normal", "Volador"],
     "hasCustomName": false,
-    "image": "hoothoot.png"
+    "image": "hoothoot.webp"
   },
   {
     "name": "Noctowl",
     "type": ["Normal", "Volador"],
     "hasCustomName": false,
-    "image": "noctowl.png"
+    "image": "noctowl.webp"
   },
   {
     "name": "Ledyba",
     "type": ["Bicho", "Volador"],
     "hasCustomName": false,
-    "image": "ledyba.png"
+    "image": "ledyba.webp"
   },
   {
     "name": "Ledian",
     "type": ["Bicho", "Volador"],
     "hasCustomName": false,
-    "image": "ledian.png"
+    "image": "ledian.webp"
   },
   {
     "name": "Spinarak",
     "type": ["Bicho", "Veneno"],
     "hasCustomName": false,
-    "image": "spinarak.png"
+    "image": "spinarak.webp"
   },
   {
     "name": "Ariados",
     "type": ["Bicho", "Veneno"],
     "hasCustomName": false,
-    "image": "ariados.png"
+    "image": "ariados.webp"
   },
   {
     "name": "Crobat",
     "type": ["Veneno", "Volador"],
     "hasCustomName": false,
-    "image": "crobat.png"
+    "image": "crobat.webp"
   },
   {
     "name": "Chinchou",
     "type": ["Agua", "Eléctrico"],
     "hasCustomName": false,
-    "image": "chinchou.png"
+    "image": "chinchou.webp"
   },
   {
     "name": "Lanturn",
     "type": ["Agua", "Eléctrico"],
     "hasCustomName": false,
-    "image": "lanturn.png"
+    "image": "lanturn.webp"
   },
   {
     "name": "Pichu",
     "type": ["Eléctrico"],
     "hasCustomName": false,
-    "image": "pichu.png"
+    "image": "pichu.webp"
   },
   {
     "name": "Cleffa",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "cleffa.png"
+    "image": "cleffa.webp"
   },
   {
     "name": "Igglybuff",
     "type": ["Normal", "Hada"],
     "hasCustomName": false,
-    "image": "igglybuff.png"
+    "image": "igglybuff.webp"
   },
   {
     "name": "Togepi",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "togepi.png"
+    "image": "togepi.webp"
   },
   {
     "name": "Togetic",
     "type": ["Hada", "Volador"],
     "hasCustomName": false,
-    "image": "togetic.png"
+    "image": "togetic.webp"
   },
   {
     "name": "Natu",
     "type": ["Psíquico", "Volador"],
     "hasCustomName": false,
-    "image": "natu.png"
+    "image": "natu.webp"
   },
   {
     "name": "Xatu",
     "type": ["Psíquico", "Volador"],
     "hasCustomName": false,
-    "image": "xatu.png"
+    "image": "xatu.webp"
   },
   {
     "name": "Mareep",
     "type": ["Eléctrico"],
     "hasCustomName": false,
-    "image": "mareep.png"
+    "image": "mareep.webp"
   },
   {
     "name": "Flaaffy",
     "type": ["Eléctrico"],
     "hasCustomName": false,
-    "image": "flaaffy.png"
+    "image": "flaaffy.webp"
   },
   {
     "name": "Ampharos",
     "type": ["Eléctrico"],
     "hasCustomName": false,
-    "image": "ampharos.png"
+    "image": "ampharos.webp"
   },
   {
     "name": "Bellossom",
     "type": ["Planta"],
     "hasCustomName": false,
-    "image": "bellossom.png"
+    "image": "bellossom.webp"
   },
   {
     "name": "Marill",
     "type": ["Agua", "Hada"],
     "hasCustomName": false,
-    "image": "marill.png"
+    "image": "marill.webp"
   },
   {
     "name": "Azumarill",
     "type": ["Agua", "Hada"],
     "hasCustomName": false,
-    "image": "azumarill.png"
+    "image": "azumarill.webp"
   },
   {
     "name": "Sudowoodo",
     "type": ["Roca"],
     "hasCustomName": false,
-    "image": "sudowoodo.png"
+    "image": "sudowoodo.webp"
   },
   {
     "name": "Politoed",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "politoed.png"
+    "image": "politoed.webp"
   },
   {
     "name": "Hoppip",
     "type": ["Planta", "Volador"],
     "hasCustomName": false,
-    "image": "hoppip.png"
+    "image": "hoppip.webp"
   },
   {
     "name": "Skiploom",
     "type": ["Planta", "Volador"],
     "hasCustomName": false,
-    "image": "skiploom.png"
+    "image": "skiploom.webp"
   },
   {
     "name": "Jumpluff",
     "type": ["Planta", "Volador"],
     "hasCustomName": false,
-    "image": "jumpluff.png"
+    "image": "jumpluff.webp"
   },
   {
     "name": "Aipom",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "aipom.png"
+    "image": "aipom.webp"
   },
   {
     "name": "Sunkern",
     "type": ["Planta"],
     "hasCustomName": false,
-    "image": "sunkern.png"
+    "image": "sunkern.webp"
   },
   {
     "name": "Sunflora",
     "type": ["Planta"],
     "hasCustomName": false,
-    "image": "sunflora.png"
+    "image": "sunflora.webp"
   },
   {
     "name": "Yanma",
     "type": ["Bicho", "Volador"],
     "hasCustomName": false,
-    "image": "yanma.png"
+    "image": "yanma.webp"
   },
   {
     "name": "Wooper",
     "type": ["Agua", "Tierra"],
     "hasCustomName": false,
-    "image": "wooper.png"
+    "image": "wooper.webp"
   },
   {
     "name": "Quagsire",
     "type": ["Agua", "Tierra"],
     "hasCustomName": false,
-    "image": "quagsire.png"
+    "image": "quagsire.webp"
   },
   {
     "name": "Espeon",
     "type": ["Psíquico"],
     "hasCustomName": false,
-    "image": "espeon.png"
+    "image": "espeon.webp"
   },
   {
     "name": "Umbreon",
     "type": ["Siniestro"],
     "hasCustomName": false,
-    "image": "umbreon.png"
+    "image": "umbreon.webp"
   },
   {
     "name": "Murkrow",
     "type": ["Siniestro", "Volador"],
     "hasCustomName": false,
-    "image": "murkrow.png"
+    "image": "murkrow.webp"
   },
   {
     "name": "Slowking",
     "type": ["Agua", "Psíquico"],
     "hasCustomName": false,
-    "image": "slowking.png"
+    "image": "slowking.webp"
   },
   {
     "name": "Misdreavus",
     "type": ["Fantasma"],
     "hasCustomName": false,
-    "image": "misdreavus.png"
+    "image": "misdreavus.webp"
   },
   {
     "name": "Unown",
     "type": ["Psíquico"],
     "hasCustomName": false,
-    "image": "unown.png"
+    "image": "unown.webp"
   },
   {
     "name": "Wobbuffet",
     "type": ["Psíquico"],
     "hasCustomName": false,
-    "image": "wobbuffet.png"
+    "image": "wobbuffet.webp"
   },
   {
     "name": "Girafarig",
     "type": ["Normal", "Psíquico"],
     "hasCustomName": false,
-    "image": "girafarig.png"
+    "image": "girafarig.webp"
   },
   {
     "name": "Pineco",
     "type": ["Bicho"],
     "hasCustomName": false,
-    "image": "pineco.png"
+    "image": "pineco.webp"
   },
   {
     "name": "Forretress",
     "type": ["Bicho", "Acero"],
     "hasCustomName": false,
-    "image": "forretress.png"
+    "image": "forretress.webp"
   },
   {
     "name": "Dunsparce",
     "type": ["Normal"],
     "hasCustomName": false,
-    "image": "dunsparce.png"
+    "image": "dunsparce.webp"
   },
   {
     "name": "Gligar",
     "type": ["Tierra", "Volador"],
     "hasCustomName": false,
-    "image": "gligar.png"
+    "image": "gligar.webp"
   },
   {
     "name": "Steelix",
     "type": ["Acero", "Tierra"],
     "hasCustomName": false,
-    "image": "steelix.png"
+    "image": "steelix.webp"
   },
   {
     "name": "Snubbull",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "snubbull.png"
+    "image": "snubbull.webp"
   },
   {
     "name": "Granbull",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "granbull.png"
+    "image": "granbull.webp"
   },
   {
     "name": "Qwilfish",
     "type": ["Agua", "Veneno"],
     "hasCustomName": false,
-    "image": "qwilfish.png"
+    "image": "qwilfish.webp"
   },
   {
     "name": "Scizor",
     "type": ["Bicho", "Acero"],
     "hasCustomName": false,
-    "image": "scizor.png"
+    "image": "scizor.webp"
   },
   {
     "name": "Shuckle",
     "type": ["Bicho", "Roca"],
     "hasCustomName": false,
-    "image": "shuckle.png"
+    "image": "shuckle.webp"
   },
   {
     "name": "Heracross",
     "type": ["Bicho", "Lucha"],
     "hasCustomName": false,
-    "image": "heracross.png"
+    "image": "heracross.webp"
   }
 ]

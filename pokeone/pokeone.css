@@ -153,7 +153,7 @@ button::before {
 }
 
 .search-container {
-  background-image: url('Imagenes/Marco De Busqueda.PNG');
+  background-image: url('Imagenes/Marco De Busqueda.webp');
   background-size: 100% 100%;   /* 👈 hace que se estire proporcionalmente al tamaño */
   width: 520px;                 /* 👈 más ancho */
   height: 85px;                 /* 👈 más alto */
