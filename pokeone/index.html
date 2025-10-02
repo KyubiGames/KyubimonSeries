@@ -7,10 +7,10 @@
     <link rel="stylesheet" type="text/css" href="pokeone.css"></link>
   </head>
   <body>
-    <img src= "Imagenes/Título.png" alt="Title" id="Imagendeltítulo">
+    <img src= "Imagenes/Título.webp" alt="Title" id="Imagendeltítulo">
 
     <div class="search-container">
-      <input type="search" placeholder="buscar pinga">
+      <input type="search" placeholder="Buscar pokemon">
     </div>
 
     <button id="filter-btn">Filtros</button>
@@ -37,7 +37,7 @@
         // Generar dinámicamente las imágenes
         tipos.forEach(tipo => {
           const img = document.createElement("img");
-          img.src = `Imagenes/Tipos/${tipo}.png`;
+          img.src = `Imagenes/Tipos/${tipo}.webp`;
           img.alt = tipo;
           filterContainer.appendChild(img);
         });
