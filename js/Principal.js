@@ -3,11 +3,11 @@ function mostrarImagenes() {
 
     //Ejemplo de imágenes que se agregarán (puedes agregar las tuyas)
     const imagenes = [
-        { src: "Imágenes/Logos/WEBP/Pokemon Rubi.webp", url:'Pokemon Rubi/index.html', portada: 'Imágenes/Portadas/Pokemon Rubi.webp', fondo: '#bf0106' },
-        { src: 'Imágenes/Logos/WEBP/Pokeone.webp', url: 'pokeone/index.html', portada: 'Imágenes/Portadas/Pokeone.webp', fondo: '#e5e5e5'},
-        { src: 'Imágenes/Logos/WEBP/Pokemon Esmeralda.webp', url: 'https://example.com/pokemon-esmeralda', portada: 'Imágenes/Portadas/Pokemon Esmeralda.webp', fondo: '#099556'},
-        { src: 'Imágenes/Logos/WEBP/Pokemon Zafiro.webp', url: 'https://example.com/pokemon-zafiro', portada: 'Imágenes/Portadas/Pokemon Zafiro.webp', fondo: '#1d6ab6'},
-        { src: "Imágenes/Logos/WEBP/Pokemon Amarillo.webp", url: 'https://example.com/pokemon-esmeralda', portada: 'Imágenes/Portadas/Pokemon Amarillo.webp', fondo: '#f8ce4b'},
+        { src: "Imágenes/Logos/Pokemon Rubi.webp", url:'Pokemon Rubi/index.html', portada: 'Imágenes/Portadas/Pokemon Rubi.webp', fondo: '#bf0106' },
+        { src: 'Imágenes/Logos/Pokeone.webp', url: 'pokeone/index.html', portada: 'Imágenes/Portadas/Pokeone.webp', fondo: '#e5e5e5'},
+        { src: 'Imágenes/Logos/Pokemon Esmeralda.webp', url: 'https://example.com/pokemon-esmeralda', portada: 'Imágenes/Portadas/Pokemon Esmeralda.webp', fondo: '#099556'},
+        { src: 'Imágenes/Logos/Pokemon Zafiro.webp', url: 'https://example.com/pokemon-zafiro', portada: 'Imágenes/Portadas/Pokemon Zafiro.webp', fondo: '#1d6ab6'},
+        { src: "Imágenes/Logos/Pokemon Amarillo.webp", url: 'https://example.com/pokemon-esmeralda', portada: 'Imágenes/Portadas/Pokemon Amarillo.webp', fondo: '#f8ce4b'},
     ]; 
 
     //Limpiar el contenedor antes de agregar nuevas imágenes
