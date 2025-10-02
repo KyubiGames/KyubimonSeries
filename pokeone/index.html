@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Pokemon</title>
+    <link rel="stylesheet" type="text/css" href="pokeone.css"></link>
+  </head>
+  <body>
+    <img src= "Imagenes/Título.png" alt="Title" id="Imagendeltítulo">
+
+    <div class="search-container">
+      <input type="search" placeholder="buscar pinga">
+    </div>
+
+    <button id="filter-btn">Filtros</button>
+
+    <!-- Contenedor de filtros (oculto por defecto con CSS) -->
+    <div class="filter-container" style="display:none"></div>
+
+    <!-- Contenedor donde van los pokemones -->
+    <div id="pokemon-container"></div>
+
+    <!-- Script para manejar los filtros -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const filterButton = document.getElementById("filter-btn");
+        const filterContainer = document.querySelector(".filter-container");
+
+        // Lista de tipos
+        const tipos = [
+          "Alfabético", "Acero", "Agua", "Bicho", "Dragón", "Eléctrico", "Fantasma", "Fuego",
+          "Hada", "Hielo", "Lucha", "Normal", "Planta", "Psíquico", "Roca",
+          "Siniestro", "Tierra", "Veneno", "Volador"
+        ];
+
+        // Generar dinámicamente las imágenes
+        tipos.forEach(tipo => {
+          const img = document.createElement("img");
+          img.src = `Imagenes/Tipos/${tipo}.png`;
+          img.alt = tipo;
+          filterContainer.appendChild(img);
+        });
+
+        // Mostrar / Ocultar al presionar el botón
+        filterButton.addEventListener("click", () => {
+          if (filterContainer.style.display === "none" || filterContainer.style.display === "") {
+            filterContainer.style.display = "flex";   // 👈 solo cuando hago click
+          } else {
+            filterContainer.style.display = "none";
+          }
+        });
+      });
+    </script>
+
+    <!-- Script que carga y muestra los pokemones -->
+    <script src="pokeone.js"></script>
+  </body>
+</html>
+
