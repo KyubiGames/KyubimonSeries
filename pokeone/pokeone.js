@@ -49,7 +49,7 @@ function createPokemonComponent(pokemon) {
   img.addEventListener("click", () => {
     navigator.clipboard.writeText(pokemon.name)
       .then(() => {
-        console.log(`${pokemon.name} copiado al portapapeles`);
+        showCopyToast(`✅ ${pokemon.name} copiado`);
       })
       .catch(err => {
         console.error("Error al copiar: ", err);
@@ -160,4 +160,19 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+function showCopyToast(message) {
+  let toast = document.createElement("div");
+  toast.className = "copy-toast";
+  toast.innerText = message;
+  document.body.appendChild(toast);
+
+  // Mostrar
+  requestAnimationFrame(() => toast.classList.add("show"));
+
+  // Ocultar después de 2s
+  setTimeout(() => {
+    toast.classList.remove("show");
+    setTimeout(() => toast.remove(), 300);
+  }, 2000);
+}
 
