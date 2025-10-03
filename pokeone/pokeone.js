@@ -35,9 +35,9 @@ function createPokemonComponent(pokemon) {
 
   const img = document.createElement("img");
   if (pokemon.hasCustomName) {
-    img.src = `Imagenes/PokemonesConNombre/${pokemon.image}`;
+    img.src = `Imagenes/PokemonesConNombre/${pokemon.image}.webp`;
   } else {
-    img.src = `Imagenes/PokemonesSinNombre/${pokemon.image}`;
+    img.src = `Imagenes/PokemonesSinNombre/${pokemon.image}.webp`;
   }
   img.alt = pokemon.name;
   img.loading = "lazy";
