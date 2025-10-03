@@ -143,7 +143,11 @@ button::before {
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.8);
   src: url("Fuentes/pokemonsolid.ttf") format("truetype");
-  color: white;
+  color: #ffcc01;
+  -webkit-text-fill-color: #ffcc01;
+  -webkit-text-stroke: 1px #2a75bb;
+  text-shadow: 3px 3px 0 #2a75bb,
+               5px 5px 0 #0a285f;
   padding: 10px 20px;
   border-radius: 10px;
   font-size: 26px;
