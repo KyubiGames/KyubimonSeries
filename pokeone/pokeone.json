@@ -1494,10 +1494,10 @@
     "image": "lugia"
   },
   {
-    "name": "Ho-Oh",
-    "type": ["Fuego", "Volador"],
-    "hasCustomName": false,
-    "image": "Ho-Oh"
+  "name": "Ho-Oh",
+  "type": ["Fuego", "Volador"],
+  "hasCustomName": false,
+  "image": "Ho-oh"
   },
   {
     "name": "Celebi",
