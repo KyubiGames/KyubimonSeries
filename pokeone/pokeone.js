@@ -35,9 +35,9 @@ function createPokemonComponent(pokemon) {
 
   const img = document.createElement("img");
   if (pokemon.hasCustomName) {
-    img.src = `Imagenes/PokemonesConNombre/${pokemon.name}.webp`;
+    img.src = `Imagenes/PokemonesConNombre/${pokemon.image}.webp`;
   } else {
-    img.src = `Imagenes/PokemonesSinNombre/${pokemon.name}.webp`;
+    img.src = `Imagenes/PokemonesSinNombre/${pokemon.image}.webp`;
   }
   img.alt = pokemon.name;
   img.loading = "lazy";
@@ -47,7 +47,7 @@ function createPokemonComponent(pokemon) {
   nameDiv.className = "name";
 
   const nameImg = document.createElement("img");
-  nameImg.src = `Imagenes/Nombres/${pokemon.name}.webp`;
+  nameImg.src = `Imagenes/Nombres/${pokemon.image}.webp`;
   nameImg.alt = pokemon.name;
   nameImg.loading = "lazy";
   nameDiv.appendChild(nameImg);
