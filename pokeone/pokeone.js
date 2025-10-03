@@ -31,13 +31,16 @@ function resetRender(newList) {
 // Crear un Pokémon
 function createPokemonComponent(pokemon) {
   const pokemonDiv = document.createElement("div");
-  pokemonDiv.className = "pokemon"; // 👈 empieza invisible
+  pokemonDiv.className = "pokemon"; 
+
+  // 👇 aseguramos compatibilidad: si no hay "image", usamos "name"
+  const fileName = pokemon.image ? pokemon.image : pokemon.name;
 
   const img = document.createElement("img");
   if (pokemon.hasCustomName) {
-    img.src = `Imagenes/PokemonesConNombre/${pokemon.image}.webp`;
+    img.src = `Imagenes/PokemonesConNombre/${fileName}.webp`;
   } else {
-    img.src = `Imagenes/PokemonesSinNombre/${pokemon.image}.webp`;
+    img.src = `Imagenes/PokemonesSinNombre/${fileName}.webp`;
   }
   img.alt = pokemon.name;
   img.loading = "lazy";
@@ -47,22 +50,23 @@ function createPokemonComponent(pokemon) {
   nameDiv.className = "name";
 
   const nameImg = document.createElement("img");
-  nameImg.src = `Imagenes/Nombres/${pokemon.image}.webp`;
+  nameImg.src = `Imagenes/Nombres/${fileName}.webp`;
   nameImg.alt = pokemon.name;
   nameImg.loading = "lazy";
   nameDiv.appendChild(nameImg);
 
   pokemonDiv.appendChild(nameDiv);
 
-  // 👇 después de un pequeño delay, agregamos la clase visible
+  // Animación de entrada
   requestAnimationFrame(() => {
     setTimeout(() => {
       pokemonDiv.classList.add("visible");
-    }, 50); // leve delay para que active la transición
+    }, 50);
   });
 
   return pokemonDiv;
 }
+
 
 // Cargar el JSON y mostrar todos al inicio
 fetch('https://raw.githubusercontent.com/KyubiGames/KyubimonSeries/main/pokeone/pokeone.json')
