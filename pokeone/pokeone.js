@@ -44,6 +44,18 @@ function createPokemonComponent(pokemon) {
   }
   img.alt = pokemon.name;
   img.loading = "lazy";
+
+  // 👇 al hacer clic en la imagen, copiamos el nombre del Pokémon
+  img.addEventListener("click", () => {
+    navigator.clipboard.writeText(pokemon.name)
+      .then(() => {
+        console.log(`${pokemon.name} copiado al portapapeles`);
+      })
+      .catch(err => {
+        console.error("Error al copiar: ", err);
+      });
+  });
+
   pokemonDiv.appendChild(img);
 
   const nameDiv = document.createElement("div");
@@ -66,7 +78,6 @@ function createPokemonComponent(pokemon) {
 
   return pokemonDiv;
 }
-
 
 // Cargar el JSON y mostrar todos al inicio
 fetch('https://raw.githubusercontent.com/KyubiGames/KyubimonSeries/main/pokeone/pokeone.json')
