@@ -30,7 +30,6 @@ function resetRender(newList) {
 
 // Crear un Pokémon
 function createPokemonComponent(pokemon) {
-  console.log("Buscando imagen:", img.src);
   const pokemonDiv = document.createElement("div");
   pokemonDiv.className = "pokemon"; 
 
