@@ -49,7 +49,7 @@ function createPokemonComponent(pokemon) {
   img.addEventListener("click", () => {
     navigator.clipboard.writeText(pokemon.name)
       .then(() => {
-        showCopyToast(`✅ ${pokemon.name} copiado`);
+        showCopyToast(`${pokemon.name} copiado`);
       })
       .catch(err => {
         console.error("Error al copiar: ", err);
