@@ -3942,10 +3942,34 @@
     "image": "Pyroar"
   },
   {
-    "name": "Flabébé",
+    "name": "Flabébé Amarilla",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "Flabébé"
+    "image": "Flabébé Amarilla"
+  },
+  {
+    "name": "Flabébé Azul",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Flabébé Azul"
+  },
+  {
+    "name": "Flabébé Blanco",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Flabébé Blanco"
+  },
+  {
+    "name": "Flabébé Naranja",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Flabébé Naranja"
+  },
+    {
+    "name": "Flabébé Roja",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Flabébé Roja"
   },
   {
     "name": "Floette",
