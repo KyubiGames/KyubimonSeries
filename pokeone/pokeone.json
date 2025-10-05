@@ -1200,10 +1200,172 @@
     "image": "Misdreavus"
   },
   {
-    "name": "Unown",
+    "name": "Unown A",
     "type": ["Psíquico"],
     "hasCustomName": false,
-    "image": "Unown"
+    "image": "Unown A"
+  },
+  {
+    "name": "Unown B",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown B"
+  },
+  {
+    "name": "Unown C",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown C"
+  },
+  {
+    "name": "Unown D",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown D"
+  },
+  {
+    "name": "Unown E",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown E"
+  },
+  {
+    "name": "Unown F",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown F"
+  },
+  {
+    "name": "Unown G",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown G"
+  },
+  {
+    "name": "Unown H",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown H"
+  },
+  {
+    "name": "Unown I",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown I"
+  },
+  {
+    "name": "Unown J",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown J"
+  },
+  {
+    "name": "Unown K",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown K"
+  },
+  {
+    "name": "Unown L",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown L"
+  },
+  {
+    "name": "Unown M",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown M"
+  },
+  {
+    "name": "Unown N",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown N"
+  },
+  {
+    "name": "Unown O",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown O"
+  },
+  {
+    "name": "Unown P",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown P"
+  },
+  {
+    "name": "Unown Q",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown Q"
+  },
+  {
+    "name": "Unown R",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown R"
+  },
+  {
+    "name": "Unown S",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown S"
+  },
+  {
+    "name": "Unown T",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown T"
+  },
+  {
+    "name": "Unown U",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown U"
+  },
+  {
+    "name": "Unown V",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown V"
+  },
+  {
+    "name": "Unown W",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown W"
+  },
+  {
+    "name": "Unown X",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown X"
+  },
+  {
+    "name": "Unown Y",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown Y"
+  },
+  {
+    "name": "Unown Z",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown Z"
+  },
+  {
+    "name": "Unown !",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown !"
+  },
+  {
+    "name": "Unown ?",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Unown ?"
   },
   {
     "name": "Wobbuffet",
