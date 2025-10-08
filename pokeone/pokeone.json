@@ -4350,46 +4350,46 @@
     "image": "Flabébé Naranja"
   },
   {
-    "name": "Flabébé Azul",
+    "name": "Flabébé Azúl",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "Flabébé Azul"
+    "image": "Flabébé Azúl"
   },
   {
-    "name": "Flabébé Blanco",
+    "name": "Flabébé Blanca",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "Flabébé Blanco"
+    "image": "Flabébé Blanca"
   },
   {
     "name": "Floette Roja",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "Floette"
+    "image": "Floette Roja"
+  },
+  {
+    "name": "Floette Amarilla",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Floette Amarilla"
+  },
+  {
+    "name": "Floette Naranja",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Floette Naranja"
   },
   {
     "name": "Floette Azúl",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "Floette"
+    "image": "Floette Azúl"
   },
   {
-    "name": "Floette",
+    "name": "Floette Blanca",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "Floette"
-  },
-  {
-    "name": "Floette",
-    "type": ["Hada"],
-    "hasCustomName": false,
-    "image": "Floette"
-  },
-  {
-    "name": "Floette",
-    "type": ["Hada"],
-    "hasCustomName": false,
-    "image": "Floette"
+    "image": "Floette Blanca"
   },
   {
     "name": "Florges",
