@@ -4392,10 +4392,34 @@
     "image": "Floette Flor Blanca"
   },
   {
-    "name": "Florges",
+    "name": "Florges Flor Roja",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "Florges"
+    "image": "Florges Flor Roja"
+  },
+  {
+    "name": "Florges Flor Amarilla",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Florges Flor Amarilla"
+  },
+  {
+    "name": "Florges Flor Naranja",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Florges Flor Naranja"
+  },
+  {
+    "name": "Florges Flor Azúl",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Florges Flor Azúl"
+  },
+  {
+    "name": "Florges Flor Blanca",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Florges Flor Blanca"
   },
   {
     "name": "Skiddo",
@@ -4434,10 +4458,16 @@
     "image": "Espurr"
   },
   {
-    "name": "Meowstic",
+    "name": "Meowstic Hembra",
     "type": ["Psíquico"],
     "hasCustomName": false,
-    "image": "Meowstic"
+    "image": "Meowstic Hembra"
+  },
+  {
+    "name": "Meowstic Macho",
+    "type": ["Psíquico"],
+    "hasCustomName": false,
+    "image": "Meowstic Macho"
   },
   {
     "name": "Honedge",
@@ -4626,16 +4656,52 @@
     "image": "Trevenant"
   },
   {
-    "name": "Pumpkaboo",
+    "name": "Pumpkaboo Tamaño Pequeño",
     "type": ["Fantasma", "Planta"],
     "hasCustomName": false,
-    "image": "Pumpkaboo"
+    "image": "Pumpkaboo Tamaño Pequeño"
   },
   {
-    "name": "Gourgeist",
+    "name": "Pumpkaboo Tamaño Normal",
     "type": ["Fantasma", "Planta"],
     "hasCustomName": false,
-    "image": "Gourgeist"
+    "image": "Pumpkaboo Tamaño Normal"
+  },
+  {
+    "name": "Pumpkaboo Tamaño Grande",
+    "type": ["Fantasma", "Planta"],
+    "hasCustomName": false,
+    "image": "Pumpkaboo Tamaño Grande"
+  },
+  {
+    "name": "Pumpkaboo Tamaño Extragrande",
+    "type": ["Fantasma", "Planta"],
+    "hasCustomName": false,
+    "image": "Pumpkaboo Tamaño Extragrande"
+  },
+  {
+    "name": "Gourgeist Tamaño Pequeño",
+    "type": ["Fantasma", "Planta"],
+    "hasCustomName": false,
+    "image": "Gourgeist Tamaño Pequeño"
+  },
+  {
+    "name": "Gourgeist Tamaño Normal",
+    "type": ["Fantasma", "Planta"],
+    "hasCustomName": false,
+    "image": "Gourgeist Tamaño Normal"
+  },
+  {
+    "name": "Gourgeist Tamaño Grande",
+    "type": ["Fantasma", "Planta"],
+    "hasCustomName": false,
+    "image": "Gourgeist Tamaño Grande"
+  },
+  {
+    "name": "Gourgeist Tamaño Extragrande",
+    "type": ["Fantasma", "Planta"],
+    "hasCustomName": false,
+    "image": "Gourgeist Tamaño Extragrande"
   },
   {
     "name": "Bergmite",
@@ -4674,7 +4740,19 @@
     "image": "Yveltal"
   },
   {
-    "name": "Zygarde",
+    "name": "Zygarde al 10%",
+    "type": ["Tierra", "Dragón"],
+    "hasCustomName": false,
+    "image": "Zygarde"
+  },
+  {
+    "name": "Zygarde al 50%",
+    "type": ["Tierra", "Dragón"],
+    "hasCustomName": false,
+    "image": "Zygarde"
+  },
+  {
+    "name": "Zygarde Completo",
     "type": ["Tierra", "Dragón"],
     "hasCustomName": false,
     "image": "Zygarde"
@@ -4812,10 +4890,10 @@
     "image": "Crabominable"
   },
   {
-    "name": "Oricorio",
+    "name": "Oricorio Estilo Apasionado",
     "type": ["Psíquico", "Volador"],
     "hasCustomName": false,
-    "image": "Oricorio"
+    "image": "Oricorio Estilo Apasionado"
   },
   {
     "name": "Cutiefly",
