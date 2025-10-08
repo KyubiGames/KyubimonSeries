@@ -5106,10 +5106,52 @@
     "image": "Silvally"
   },
   {
-    "name": "Minior",
+    "name": "Minior Meteorito",
     "type": ["Roca", "Volador"],
     "hasCustomName": false,
-    "image": "Minior"
+    "image": "Minior Meteorito"
+  },
+  {
+    "name": "Minior Núcleo Azúl",
+    "type": ["Roca", "Volador"],
+    "hasCustomName": false,
+    "image": "Minior Núcleo Azúl"
+  },
+  {
+    "name": "Minior Núcleo Verde",
+    "type": ["Roca", "Volador"],
+    "hasCustomName": false,
+    "image": "Minior Núcleo Verde"
+  },
+  {
+    "name": "Minior Núcleo Añil",
+    "type": ["Roca", "Volador"],
+    "hasCustomName": false,
+    "image": "Minior Núcleo Añil"
+  },
+  {
+    "name": "Minior Núcleo Naranja",
+    "type": ["Roca", "Volador"],
+    "hasCustomName": false,
+    "image": "Minior Núcleo Naranja"
+  },
+  {
+    "name": "Minior Núcleo Rojo",
+    "type": ["Roca", "Volador"],
+    "hasCustomName": false,
+    "image": "Minior Núcleo Rojo"
+  },
+  {
+    "name": "Minior Núcleo Violeta",
+    "type": ["Roca", "Volador"],
+    "hasCustomName": false,
+    "image": "Minior Núcleo Violeta"
+  },
+  {
+    "name": "Minior Núcleo Amarillo",
+    "type": ["Roca", "Volador"],
+    "hasCustomName": false,
+    "image": "Minior Núcleo Amarillo"
   },
   {
     "name": "Komala",
