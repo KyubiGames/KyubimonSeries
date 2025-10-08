@@ -4914,16 +4914,34 @@
     "image": "Rockruff"
   },
   {
-    "name": "Lycanroc",
+    "name": "Lycanroc Forma Diurna",
     "type": ["Roca"],
     "hasCustomName": false,
-    "image": "Lycanroc"
+    "image": "Lycanroc Forma Diurna"
   },
   {
-    "name": "Wishiwashi",
+    "name": "Lycanroc Forma Nocturna",
+    "type": ["Roca"],
+    "hasCustomName": false,
+    "image": "Lycanroc Forma Nocturna"
+  },
+  {
+    "name": "Lycanroc Forma Crepuscular",
+    "type": ["Roca"],
+    "hasCustomName": false,
+    "image": "Lycanroc Forma Crepuscular"
+  },
+  {
+    "name": "Wishiwashi Forma Individual",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "Wishiwashi"
+    "image": "Wishiwashi Forma Individual"
+  },
+  {
+    "name": "Wishiwashi Forma Banco",
+    "type": ["Agua"],
+    "hasCustomName": false,
+    "image": "Wishiwashi Forma Banco"
   },
   {
     "name": "Mareanie",
