@@ -2658,10 +2658,16 @@
     "image": "Shellos Mar Oeste"
   },
   {
-    "name": "Gastrodon",
+    "name": "Gastrodon Mar Este",
     "type": ["Agua", "Tierra"],
     "hasCustomName": false,
-    "image": "Gastrodon"
+    "image": "Gastrodon Mar Este"
+  },
+  {
+    "name": "Gastrodon Mar Oeste",
+    "type": ["Agua", "Tierra"],
+    "hasCustomName": false,
+    "image": "Gastrodon Mar Oeste"
   },
   {
     "name": "Ambipom",
