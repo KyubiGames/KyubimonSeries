@@ -2562,16 +2562,40 @@
     "image": "Bastiodon"
   },
   {
-    "name": "Burmy",
+    "name": "Burmy Tronco Planta",
     "type": ["Bicho"],
     "hasCustomName": false,
-    "image": "Burmy"
+    "image": "Burmy Tronco Planta"
   },
   {
-    "name": "Wormadam",
+    "name": "Burmy Tronco Arena",
+    "type": ["Bicho"],
+    "hasCustomName": false,
+    "image": "Burmy Tronco Arena"
+  },
+  {
+    "name": "Burmy Tronco Basura",
+    "type": ["Bicho"],
+    "hasCustomName": false,
+    "image": "Burmy Tronco Basura"
+  },
+  {
+    "name": "Wormadam Tronco Planta",
     "type": ["Bicho", "Planta"],
     "hasCustomName": false,
-    "image": "Wormadam"
+    "image": "Wormadam Tronco Planta"
+  },
+    {
+    "name": "Wormadam Tronco Arena",
+    "type": ["Bicho", "Planta"],
+    "hasCustomName": false,
+    "image": "Wormadam Tronco Arena"
+  },
+    {
+    "name": "Wormadam Tronco Basura",
+    "type": ["Bicho", "Planta"],
+    "hasCustomName": false,
+    "image": "Wormadam Tronco Basura"
   },
   {
     "name": "Mothim",
@@ -3390,10 +3414,16 @@
     "image": "Lilligant"
   },
   {
-    "name": "Basculin",
+    "name": "Basculin Forma Raya Roja",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "Basculin"
+    "image": "Basculin Forma Raya Roja"
+  },
+  {
+    "name": "Basculin Forma Raya Azul",
+    "type": ["Agua"],
+    "hasCustomName": false,
+    "image": "Basculin Forma Raya Azul"
   },
   {
     "name": "Sandile",
@@ -3600,16 +3630,52 @@
     "image": "Vanilluxe"
   },
   {
-    "name": "Deerling",
+    "name": "Deerling Forma Primavera",
     "type": ["Normal", "Planta"],
     "hasCustomName": false,
-    "image": "Deerling"
+    "image": "Deerling Forma Primavera"
   },
   {
-    "name": "Sawsbuck",
+    "name": "Deerling Forma Otoño",
     "type": ["Normal", "Planta"],
     "hasCustomName": false,
-    "image": "Sawsbuck"
+    "image": "Deerling Forma Otoño"
+  },
+  {
+    "name": "Deerling Forma Verano",
+    "type": ["Normal", "Planta"],
+    "hasCustomName": false,
+    "image": "Deerling Forma Verano"
+  },
+  {
+    "name": "Deerling Forma Invierno",
+    "type": ["Normal", "Planta"],
+    "hasCustomName": false,
+    "image": "Deerling Forma Invierno"
+  },
+  {
+    "name": "Sawsbuck Forma Primavera",
+    "type": ["Normal", "Planta"],
+    "hasCustomName": false,
+    "image": "Sawsbuck Forma Primavera"
+  },
+  {
+    "name": "Sawsbuck Forma Otoño",
+    "type": ["Normal", "Planta"],
+    "hasCustomName": false,
+    "image": "Sawsbuck Forma Otoño"
+  },
+  {
+    "name": "Sawsbuck Forma Verano",
+    "type": ["Normal", "Planta"],
+    "hasCustomName": false,
+    "image": "Sawsbuck Forma Verano"
+  },
+  {
+    "name": "Sawsbuck Forma Invierno",
+    "type": ["Normal", "Planta"],
+    "hasCustomName": false,
+    "image": "Sawsbuck Forma Invierno"
   },
   {
     "name": "Emolga",
@@ -3642,16 +3708,28 @@
     "image": "Amoonguss"
   },
   {
-    "name": "Frillish",
+    "name": "Frillish Hembra",
     "type": ["Agua", "Fantasma"],
     "hasCustomName": false,
-    "image": "Frillish"
+    "image": "Frillish Hembra"
   },
   {
-    "name": "Jellicent",
+    "name": "Frillish Macho",
     "type": ["Agua", "Fantasma"],
     "hasCustomName": false,
-    "image": "Jellicent"
+    "image": "Frillish Macho"
+  },
+  {
+    "name": "Jellicent Hembra",
+    "type": ["Agua", "Fantasma"],
+    "hasCustomName": false,
+    "image": "Jellicent Hembra"
+  },
+  {
+    "name": "Jellicent Macho",
+    "type": ["Agua", "Fantasma"],
+    "hasCustomName": false,
+    "image": "Jellicent Macho"
   },
   {
     "name": "Alomomola",
@@ -3936,16 +4014,28 @@
     "image": "Virizion"
   },
   {
-    "name": "Tornadus",
+    "name": "Tornadus Forma Avatar",
     "type": ["Volador"],
     "hasCustomName": false,
-    "image": "Tornadus"
+    "image": "Tornadus Forma Avatar"
   },
   {
-    "name": "Thundurus",
+    "name": "Tornadus Forma Tótem",
+    "type": ["Volador"],
+    "hasCustomName": false,
+    "image": "Tornadus Forma Tótem"
+  },
+  {
+    "name": "Thundurus Forma Avatar",
     "type": ["Eléctrico", "Volador"],
     "hasCustomName": false,
-    "image": "Thundurus"
+    "image": "Thundurus Forma Avatar"
+  },
+  {
+    "name": "Thundurus Forma Tótem",
+    "type": ["Eléctrico", "Volador"],
+    "hasCustomName": false,
+    "image": "Thundurus Forma Tótem"
   },
   {
     "name": "Reshiram",
@@ -3960,10 +4050,16 @@
     "image": "Zekrom"
   },
   {
-    "name": "Landorus",
+    "name": "Landorus Forma Avatar",
     "type": ["Tierra", "Volador"],
     "hasCustomName": false,
-    "image": "Landorus"
+    "image": "Landorus Forma Avatar"
+  },
+  {
+    "name": "Landorus Forma Tótem",
+    "type": ["Tierra", "Volador"],
+    "hasCustomName": false,
+    "image": "Landorus Forma Tótem"
   },
   {
     "name": "Kyurem",
@@ -3972,10 +4068,28 @@
     "image": "Kyurem"
   },
   {
-    "name": "Keldeo",
+    "name": "Kyurem Blanco",
+    "type": ["Dragón", "Hielo"],
+    "hasCustomName": false,
+    "image": "Kyurem Blanco"
+  },
+  {
+    "name": "Kyurem Negro",
+    "type": ["Dragón", "Hielo"],
+    "hasCustomName": false,
+    "image": "Kyurem Negro"
+  },
+  {
+    "name": "Keldeo Forma Ordinaria",
     "type": ["Agua", "Lucha"],
     "hasCustomName": false,
-    "image": "Keldeo"
+    "image": "Keldeo Forma Ordinaria"
+  },
+  {
+    "name": "Keldeo Forma Brío",
+    "type": ["Agua", "Lucha"],
+    "hasCustomName": false,
+    "image": "Keldeo Forma Brío"
   },
   {
     "name": "Meloetta",
@@ -4086,10 +4200,124 @@
     "image": "Spewpa"
   },
   {
-    "name": "Vivillon",
+    "name": "Vivillon Motivo Floral",
     "type": ["Bicho", "Volador"],
     "hasCustomName": false,
-    "image": "Vivillon"
+    "image": "Vivillon Motivo Floral"
+  },
+  {
+    "name": "Vivillon Motivo Isleño",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Isleño"
+  },
+  {
+    "name": "Vivillon Motivo Continental",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Continental"
+  },
+  {
+    "name": "Vivillon Motivo Oriental",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Oriental"
+  },
+  {
+    "name": "Vivillon Motivo Vergel",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Vergel"
+  },
+  {
+    "name": "Vivillon Motivo Estepa",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Estepa"
+  },
+  {
+    "name": "Vivillon Motivo Polar",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Polar"
+  },
+  {
+    "name": "Vivillon Motivo Jungla",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Jungla"
+  },
+  {
+    "name": "Vivillon Motivo Marino",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Marino"
+  },
+  {
+    "name": "Vivillon Motivo Moderno",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Moderno"
+  },
+  {
+    "name": "Vivillon Motivo Monzón",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Monzón"
+  },
+  {
+    "name": "Vivillon Motivo Océano",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Océano"
+  },
+  {
+    "name": "Vivillon Motivo Taiga",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Taiga"
+  },
+  {
+    "name": "Vivillon Motivo Oasis",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Oasis"
+  },
+  {
+    "name": "Vivillon Motivo Desierto",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Desierto"
+  },
+  {
+    "name": "Vivillon Motivo Pantano",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Pantano"
+  },
+  {
+    "name": "Vivillon Motivo Solar",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Solar"
+  },
+  {
+    "name": "Vivillon Motivo Tundra",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Tundra"
+  },
+  {
+    "name": "Vivillon Motivo Fantasía",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Fantasía"
+  },
+  {
+    "name": "Vivillon Motivo Poké Ball",
+    "type": ["Bicho", "Volador"],
+    "hasCustomName": false,
+    "image": "Vivillon Motivo Poké Ball"
   },
   {
     "name": "Litleo",
@@ -4104,10 +4332,22 @@
     "image": "Pyroar"
   },
   {
+    "name": "Flabébé Roja",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Flabébé Roja"
+  },
+  {
     "name": "Flabébé Amarilla",
     "type": ["Hada"],
     "hasCustomName": false,
     "image": "Flabébé Amarilla"
+  },
+  {
+    "name": "Flabébé Naranja",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Flabébé Naranja"
   },
   {
     "name": "Flabébé Azul",
@@ -4122,16 +4362,28 @@
     "image": "Flabébé Blanco"
   },
   {
-    "name": "Flabébé Naranja",
+    "name": "Floette Roja",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "Flabébé Naranja"
+    "image": "Floette"
   },
-    {
-    "name": "Flabébé Roja",
+  {
+    "name": "Floette Azúl",
     "type": ["Hada"],
     "hasCustomName": false,
-    "image": "Flabébé Roja"
+    "image": "Floette"
+  },
+  {
+    "name": "Floette",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Floette"
+  },
+  {
+    "name": "Floette",
+    "type": ["Hada"],
+    "hasCustomName": false,
+    "image": "Floette"
   },
   {
     "name": "Floette",
