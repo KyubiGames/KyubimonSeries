@@ -2646,10 +2646,16 @@
     "image": "Cherrim"
   },
   {
-    "name": "Shellos",
+    "name": "Shellos Mar Este",
     "type": ["Agua"],
     "hasCustomName": false,
-    "image": "Shellos"
+    "image": "Shellos Mar Este"
+  },
+  {
+    "name": "Shellos Mar Oeste",
+    "type": ["Agua"],
+    "hasCustomName": false,
+    "image": "Shellos Mar Oeste"
   },
   {
     "name": "Gastrodon",
