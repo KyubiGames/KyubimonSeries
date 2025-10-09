@@ -4755,19 +4755,19 @@
     "name": "Zygarde al 10%",
     "type": ["Tierra", "Dragón"],
     "hasCustomName": false,
-    "image": "Zygarde"
+    "image": "Zygarde al 10%"
   },
   {
     "name": "Zygarde al 50%",
     "type": ["Tierra", "Dragón"],
     "hasCustomName": false,
-    "image": "Zygarde"
+    "image": "Zygarde al 50%"
   },
   {
     "name": "Zygarde Completo",
     "type": ["Tierra", "Dragón"],
     "hasCustomName": false,
-    "image": "Zygarde"
+    "image": "Zygarde Completo"
   },
   {
     "name": "Diancie",
