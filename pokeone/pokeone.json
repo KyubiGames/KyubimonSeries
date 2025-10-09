@@ -4755,13 +4755,13 @@
     "name": "Zygarde al 10%",
     "type": ["Tierra", "Dragón"],
     "hasCustomName": false,
-    "image": "Zygarde al 10%"
+    "image": "Zygarde al 10"
   },
   {
     "name": "Zygarde al 50%",
     "type": ["Tierra", "Dragón"],
     "hasCustomName": false,
-    "image": "Zygarde al 50%"
+    "image": "Zygarde al 50"
   },
   {
     "name": "Zygarde Completo",
