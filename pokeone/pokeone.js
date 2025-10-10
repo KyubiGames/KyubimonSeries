@@ -45,16 +45,18 @@ function createPokemonComponent(pokemon) {
   img.alt = pokemon.name;
   img.loading = "lazy";
 
-  // 👇 al hacer clic en la imagen, copiamos el nombre del Pokémon
-  img.addEventListener("click", () => {
-    navigator.clipboard.writeText(pokemon.name)
-      .then(() => {
-        showCopyToast(`Nombre: ${pokemon.name} copiado`);
-      })
-      .catch(err => {
-        console.error("Error al copiar: ", err);
-      });
-  });
+  // 👇 al hacer clic en la imagen, copiamos el nombre del Pokémon solo si hasCustomName es false
+  if (!pokemon.hasCustomName) {
+    img.addEventListener("click", () => {
+      navigator.clipboard.writeText(pokemon.name)
+        .then(() => {
+          showCopyToast(`Nombre: ${pokemon.name} copiado`);
+        })
+        .catch(err => {
+          console.error("Error al copiar: ", err);
+        });
+    });
+  }
 
   pokemonDiv.appendChild(img);
 
