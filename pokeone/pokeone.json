@@ -4176,10 +4176,16 @@
     "image": "Keldeo Forma Brío"
   },
   {
-    "name": "Meloetta",
+    "name": "Meloetta Forma Lírica",
     "type": ["Normal", "Psíquico"],
     "hasCustomName": false,
-    "image": "Meloetta"
+    "image": "Meloetta Forma Lírica"
+  },
+  {
+    "name": "Meloetta Forma Danza",
+    "type": ["Normal", "Lucha"],
+    "hasCustomName": false,
+    "image": "Meloetta Forma Danza"
   },
   {
     "name": "Genesect",
