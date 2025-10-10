@@ -896,7 +896,7 @@
   {
     "name": "Mewtwo",
     "type": ["Psíquico"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Mewtwo"
   },
   {
@@ -1652,13 +1652,13 @@
   {
     "name": "Lugia",
     "type": ["Psíquico", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Lugia"
   },
   {
     "name": "Ho-Oh",
     "type": ["Fuego", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "HoOh"
   },
   {
@@ -2450,19 +2450,19 @@
   {
     "name": "Kyogre",
     "type": ["Agua"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Kyogre"
   },
   {
     "name": "Groudon",
     "type": ["Tierra"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Groudon"
   },
   {
     "name": "Rayquaza",
     "type": ["Dragón", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Rayquaza"
   },
   {
@@ -2474,26 +2474,92 @@
   {
     "name": "Deoxys",
     "type": ["Psíquico"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Deoxys"
   },
   {
     "name": "Turtwig",
     "type": ["Planta"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Turtwig"
   },
   {
     "name": "Grotle",
     "type": ["Planta"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Grotle"
   },
   {
     "name": "Torterra",
     "type": ["Planta", "Tierra"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Torterra"
+  },
+  {
+    "name": "Chimchar",
+    "type": ["Fuego"],
+    "hasCustomName": true,
+    "image": "Chimchar"
+  },
+  {
+    "name": "Monferno",
+    "type": ["Fuego", "Lucha"],
+    "hasCustomName": true,
+    "image": "Monferno"
+  },
+  {
+    "name": "Infernape",
+    "type": ["Fuego", "Lucha"],
+    "hasCustomName": true,
+    "image": "Infernape"
+  },
+  {
+    "name": "Piplup",
+    "type": ["Agua"],
+    "hasCustomName": true,
+    "image": "Piplup"
+  },
+  {
+    "name": "Prinplup",
+    "type": ["Agua"],
+    "hasCustomName": true,
+    "image": "Prinplup"
+  },
+  {
+    "name": "Empoleon",
+    "type": ["Agua", "Acero"],
+    "hasCustomName": true,
+    "image": "Empoleon"
+  },
+  {
+    "name": "Starly",
+    "type": ["Normal", "Volador"],
+    "hasCustomName": false,
+    "image": "Starly"
+  },
+  {
+    "name": "Staravia",
+    "type": ["Normal", "Volador"],
+    "hasCustomName": false,
+    "image": "Staravia"
+  },
+  {
+    "name": "Staraptor",
+    "type": ["Normal", "Volador"],
+    "hasCustomName": false,
+    "image": "Staraptor"
+  },
+  {
+    "name": "Bidoof",
+    "type": ["Normal"],
+    "hasCustomName": false,
+    "image": "Bidoof"
+  },
+  {
+    "name": "Bibarel",
+    "type": ["Normal", "Agua"],
+    "hasCustomName": false,
+    "image": "Bibarel"
   },
   {
     "name": "Kricketot",
