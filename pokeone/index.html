@@ -28,48 +28,62 @@
     document.addEventListener("DOMContentLoaded", () => {
       const audio = document.getElementById("audio");
 
-      // 🔹 Precarga el audio para que esté listo cuando el usuario toque
+      // 🔹 Precarga el audio para que empiece más rápido
       audio.preload = "auto";
-      audio.volume = 0.3; // volumen inicial más bajo (opcional)
-
-      // 🔹 Forzar descarga temprana (ayuda a reducir el retraso)
+      audio.volume = 0.3;
       audio.load();
 
-      // 🔹 Mostrar un botón de reproducción visible en móviles
+      // 🔹 Crear botón visible para activar la música en móviles
       const musicBtn = document.createElement("button");
-      musicBtn.textContent = "🔊 Activar música";
+      musicBtn.textContent = "🔊 Música";
       musicBtn.id = "music-btn";
+
+      // Estilos del botón
       Object.assign(musicBtn.style, {
         position: "fixed",
-        bottom: "20px",
-        right: "20px",
-        padding: "10px 16px",
-        borderRadius: "10px",
-        background: "#2b2b2b",
+        top: "15px",
+        right: "15px",
+        padding: "8px 14px",
+        borderRadius: "8px",
+        background: "rgba(43, 43, 43, 0.85)",
         color: "white",
-        border: "none",
+        border: "1px solid #555",
         cursor: "pointer",
         zIndex: "1000",
-        fontSize: "16px",
+        fontSize: "15px",
+        backdropFilter: "blur(4px)",
+        transition: "all 0.2s ease",
       });
-      document.body.appendChild(musicBtn);
 
+      musicBtn.addEventListener("mouseenter", () => {
+        musicBtn.style.background = "rgba(70, 70, 70, 0.9)";
+      });
+      musicBtn.addEventListener("mouseleave", () => {
+        musicBtn.style.background = "rgba(43, 43, 43, 0.85)";
+      });
+
+      // 🔹 Solo mostrar el botón en celulares
+      if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+        document.body.appendChild(musicBtn);
+      }
+
+      // 🔹 Al hacer clic o tocar el botón, activar la música
       const startAudio = () => {
         audio.play().then(() => {
-          musicBtn.remove(); // quita el botón una vez que empieza
+          musicBtn.remove(); // elimina el botón después de activarla
         }).catch(err => {
-          console.log("Requiere interacción directa del usuario:", err);
+          console.log("Esperando interacción directa del usuario:", err);
         });
       };
 
-      // 🔹 En móviles es necesario tocar el botón o la pantalla
       musicBtn.addEventListener("click", startAudio);
 
-      // 🔹 En desktop también permitimos clics en cualquier parte
-      document.addEventListener("click", startAudio, { once: true });
+      // 🔹 En PC, iniciar al primer clic o interacción
+      if (!/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+        document.addEventListener("click", startAudio, { once: true });
+      }
     });
     </script>
-
 
     <script>
       // Tu código original de los filtros
