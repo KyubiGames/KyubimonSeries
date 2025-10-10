@@ -25,23 +25,51 @@
     </audio>
 
     <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const audio = document.getElementById("audio");
+    document.addEventListener("DOMContentLoaded", () => {
+      const audio = document.getElementById("audio");
 
-        // 🟢 Intentar reproducir al primer clic o interacción del usuario
-        const startAudio = () => {
-          audio.play().catch(err => {
-            console.log("Esperando interacción del usuario para reproducir música.");
-          });
-          // Remover el listener después de reproducir
-          document.removeEventListener("click", startAudio);
-          document.removeEventListener("scroll", startAudio);
-        };
+      // 🔹 Precarga el audio para que esté listo cuando el usuario toque
+      audio.preload = "auto";
+      audio.volume = 0.3; // volumen inicial más bajo (opcional)
 
-        document.addEventListener("click", startAudio);
-        document.addEventListener("scroll", startAudio);
+      // 🔹 Forzar descarga temprana (ayuda a reducir el retraso)
+      audio.load();
+
+      // 🔹 Mostrar un botón de reproducción visible en móviles
+      const musicBtn = document.createElement("button");
+      musicBtn.textContent = "🔊 Activar música";
+      musicBtn.id = "music-btn";
+      Object.assign(musicBtn.style, {
+        position: "fixed",
+        bottom: "20px",
+        right: "20px",
+        padding: "10px 16px",
+        borderRadius: "10px",
+        background: "#2b2b2b",
+        color: "white",
+        border: "none",
+        cursor: "pointer",
+        zIndex: "1000",
+        fontSize: "16px",
       });
+      document.body.appendChild(musicBtn);
+
+      const startAudio = () => {
+        audio.play().then(() => {
+          musicBtn.remove(); // quita el botón una vez que empieza
+        }).catch(err => {
+          console.log("Requiere interacción directa del usuario:", err);
+        });
+      };
+
+      // 🔹 En móviles es necesario tocar el botón o la pantalla
+      musicBtn.addEventListener("click", startAudio);
+
+      // 🔹 En desktop también permitimos clics en cualquier parte
+      document.addEventListener("click", startAudio, { once: true });
+    });
     </script>
+
 
     <script>
       // Tu código original de los filtros
