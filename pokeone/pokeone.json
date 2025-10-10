@@ -2653,13 +2653,13 @@
   },
     {
     "name": "Wormadam Tronco Arena",
-    "type": ["Bicho", "Planta"],
+    "type": ["Bicho", "Tierra"],
     "hasCustomName": false,
     "image": "Wormadam Tronco Arena"
   },
     {
     "name": "Wormadam Tronco Basura",
-    "type": ["Bicho", "Planta"],
+    "type": ["Bicho", "Acero"],
     "hasCustomName": false,
     "image": "Wormadam Tronco Basura"
   },
@@ -3144,10 +3144,16 @@
     "image": "Darkrai"
   },
   {
-    "name": "Shaymin",
+    "name": "Shaymin Forma Tierra",
     "type": ["Planta"],
     "hasCustomName": false,
-    "image": "Shaymin"
+    "image": "Shaymin Forma Tierra"
+  },
+  {
+    "name": "Shaymin Forma Cielo",
+    "type": ["Planta", "Volador"],
+    "hasCustomName": false,
+    "image": "Shaymin Forma Cielo"
   },
   {
     "name": "Arceus",
