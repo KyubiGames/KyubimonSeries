@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Pokemon</title>
-    <link rel="stylesheet" type="text/css" href="pokeone.css"></link>
+    <link rel="stylesheet" type="text/css" href="pokeone.css">
   </head>
   <body>
-    <img src= "Imagenes/Título.webp" alt="Title" id="Imagendeltítulo">
+    <img src="Imagenes/Título.webp" alt="Title" id="Imagendeltítulo">
 
     <div class="search-container">
       <input type="search" placeholder="Buscar pokemon">
@@ -15,28 +15,46 @@
 
     <button id="filter-btn">Filtros</button>
 
-    <!-- Contenedor de filtros (oculto por defecto con CSS) -->
     <div class="filter-container" style="display:none"></div>
 
-    <!-- Contenedor donde van los pokemones -->
     <div id="pokemon-container"></div>
 
-    <audio id="audio" controls>
-            <source src="Música/Route 201 (Night).opus" type="audio/mp3">
-    <!-- Script para manejar los filtros -->
+    <!-- 🎵 Música de fondo -->
+    <audio id="audio" loop>
+      <source src="Música/Route 201 (Night).opus" type="audio/ogg">
+    </audio>
+
     <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const audio = document.getElementById("audio");
+
+        // 🟢 Intentar reproducir al primer clic o interacción del usuario
+        const startAudio = () => {
+          audio.play().catch(err => {
+            console.log("Esperando interacción del usuario para reproducir música.");
+          });
+          // Remover el listener después de reproducir
+          document.removeEventListener("click", startAudio);
+          document.removeEventListener("scroll", startAudio);
+        };
+
+        document.addEventListener("click", startAudio);
+        document.addEventListener("scroll", startAudio);
+      });
+    </script>
+
+    <script>
+      // Tu código original de los filtros
       document.addEventListener("DOMContentLoaded", () => {
         const filterButton = document.getElementById("filter-btn");
         const filterContainer = document.querySelector(".filter-container");
 
-        // Lista de tipos
         const tipos = [
           "Alfabético", "Acero", "Agua", "Bicho", "Dragón", "Eléctrico", "Fantasma", "Fuego",
           "Hada", "Hielo", "Lucha", "Normal", "Planta", "Psíquico", "Roca",
           "Siniestro", "Tierra", "Veneno", "Volador"
         ];
 
-        // Generar dinámicamente las imágenes
         tipos.forEach(tipo => {
           const img = document.createElement("img");
           img.src = `Imagenes/Tipos/${tipo}.webp`;
@@ -44,10 +62,9 @@
           filterContainer.appendChild(img);
         });
 
-        // Mostrar / Ocultar al presionar el botón
         filterButton.addEventListener("click", () => {
           if (filterContainer.style.display === "none" || filterContainer.style.display === "") {
-            filterContainer.style.display = "flex";   // 👈 solo cuando hago click
+            filterContainer.style.display = "flex";
           } else {
             filterContainer.style.display = "none";
           }
@@ -55,8 +72,6 @@
       });
     </script>
 
-    <!-- Script que carga y muestra los pokemones -->
     <script src="pokeone.js"></script>
   </body>
 </html>
-
