@@ -2714,25 +2714,25 @@
   {
     "name": "Shellos Mar Este",
     "type": ["Agua"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Shellos Mar Este"
   },
   {
     "name": "Shellos Mar Oeste",
     "type": ["Agua"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Shellos Mar Oeste"
   },
   {
     "name": "Gastrodon Mar Este",
     "type": ["Agua", "Tierra"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Gastrodon Mar Este"
   },
   {
     "name": "Gastrodon Mar Oeste",
     "type": ["Agua", "Tierra"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Gastrodon Mar Oeste"
   },
   {
@@ -3092,13 +3092,13 @@
   {
     "name": "Dialga",
     "type": ["Acero", "Dragón"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Dialga"
   },
   {
     "name": "Palkia",
     "type": ["Agua", "Dragón"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Palkia"
   },
   {
@@ -3110,13 +3110,13 @@
   {
     "name": "Regigigas",
     "type": ["Normal"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Regigigas"
   },
   {
     "name": "Giratina",
     "type": ["Fantasma", "Dragón"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Giratina"
   },
   {
@@ -3128,19 +3128,19 @@
   {
     "name": "Phione",
     "type": ["Agua"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Phione"
   },
   {
     "name": "Manaphy",
     "type": ["Agua"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Manaphy"
   },
   {
     "name": "Darkrai",
     "type": ["Siniestro"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Darkrai"
   },
   {
@@ -3158,7 +3158,7 @@
   {
     "name": "Arceus",
     "type": ["Normal"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Arceus"
   },
   {
@@ -4124,13 +4124,13 @@
   {
     "name": "Reshiram",
     "type": ["Dragón", "Fuego"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Reshiram"
   },
   {
     "name": "Zekrom",
     "type": ["Dragón", "Eléctrico"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Zekrom"
   },
   {
@@ -4148,19 +4148,19 @@
   {
     "name": "Kyurem",
     "type": ["Dragón", "Hielo"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Kyurem"
   },
   {
     "name": "Kyurem Blanco",
     "type": ["Dragón", "Hielo"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Kyurem Blanco"
   },
   {
     "name": "Kyurem Negro",
     "type": ["Dragón", "Hielo"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Kyurem Negro"
   },
   {
@@ -4190,7 +4190,7 @@
   {
     "name": "Genesect",
     "type": ["Bicho", "Acero"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Genesect"
   },
   {
@@ -4820,31 +4820,31 @@
   {
     "name": "Xerneas",
     "type": ["Hada"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Xerneas"
   },
   {
     "name": "Yveltal",
     "type": ["Siniestro", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Yveltal"
   },
   {
     "name": "Zygarde al 10%",
     "type": ["Tierra", "Dragón"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Zygarde al 10"
   },
   {
     "name": "Zygarde al 50%",
     "type": ["Tierra", "Dragón"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Zygarde al 50"
   },
   {
     "name": "Zygarde Completo",
     "type": ["Tierra", "Dragón"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Zygarde Completo"
   },
   {
@@ -4856,13 +4856,13 @@
   {
     "name": "Hoopa",
     "type": ["Psíquico", "Fantasma"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Hoopa"
   },
   {
     "name": "Volcanion",
     "type": ["Fuego", "Agua"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Volcanion"
   },
   {
@@ -5024,13 +5024,13 @@
   {
     "name": "Wishiwashi Forma Individual",
     "type": ["Agua"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Wishiwashi Forma Individual"
   },
   {
     "name": "Wishiwashi Forma Banco",
     "type": ["Agua"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Wishiwashi Forma Banco"
   },
   {
@@ -5186,61 +5186,61 @@
   {
     "name": "Type: Null",
     "type": ["Normal"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Type Null"
   },
   {
     "name": "Silvally",
     "type": ["Normal"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Silvally"
   },
   {
     "name": "Minior Meteorito",
     "type": ["Roca", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Minior Meteorito"
   },
   {
     "name": "Minior Núcleo Azul",
     "type": ["Roca", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Minior Núcleo Azul"
   },
   {
     "name": "Minior Núcleo Verde",
     "type": ["Roca", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Minior Núcleo Verde"
   },
   {
     "name": "Minior Núcleo Añil",
     "type": ["Roca", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Minior Núcleo Añil"
   },
   {
     "name": "Minior Núcleo Naranja",
     "type": ["Roca", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Minior Núcleo Naranja"
   },
   {
     "name": "Minior Núcleo Rojo",
     "type": ["Roca", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Minior Núcleo Rojo"
   },
   {
     "name": "Minior Núcleo Violeta",
     "type": ["Roca", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Minior Núcleo Violeta"
   },
   {
     "name": "Minior Núcleo Amarillo",
     "type": ["Roca", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Minior Núcleo Amarillo"
   },
   {
@@ -5306,85 +5306,85 @@
   {
     "name": "Tapu Koko",
     "type": ["Eléctrico", "Hada"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Tapu Koko"
   },
   {
     "name": "Tapu Lele",
     "type": ["Psíquico", "Hada"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Tapu Lele"
   },
   {
     "name": "Tapu Bulu",
     "type": ["Planta", "Hada"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Tapu Bulu"
   },
   {
     "name": "Tapu Fini",
     "type": ["Agua", "Hada"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Tapu Fini"
   },
   {
     "name": "Cosmog",
     "type": ["Psíquico"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Cosmog"
   },
   {
     "name": "Cosmoem",
     "type": ["Psíquico"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Cosmoem"
   },
   {
     "name": "Solgaleo",
     "type": ["Psíquico", "Acero"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Solgaleo"
   },
   {
     "name": "Lunala",
     "type": ["Psíquico", "Fantasma"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Lunala"
   },
   {
     "name": "Nihilego",
     "type": ["Roca", "Veneno"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Nihilego"
   },
   {
     "name": "Buzzwole",
     "type": ["Bicho", "Lucha"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Buzzwole"
   },
   {
     "name": "Pheromosa",
     "type": ["Bicho", "Lucha"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Pheromosa"
   },
   {
     "name": "Xurkitree",
     "type": ["Eléctrico"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Xurkitree"
   },
   {
     "name": "Celesteela",
     "type": ["Acero", "Volador"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Celesteela"
   },
   {
     "name": "Kartana",
     "type": ["Planta", "Acero"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Kartana"
   },
   {
@@ -5396,49 +5396,49 @@
   {
     "name": "Necrozma",
     "type": ["Psíquico"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Necrozma"
   },
   {
     "name": "Magearna",
     "type": ["Acero", "Hada"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Magearna"
   },
   {
     "name": "Marshadow",
     "type": ["Lucha", "Fantasma"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Marshadow"
   },
   {
     "name": "Poipole",
     "type": ["Veneno"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Poipole"
   },
   {
     "name": "Naganadel",
     "type": ["Veneno", "Dragón"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Naganadel"
   },
   {
     "name": "Stakataka",
     "type": ["Roca", "Acero"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Stakataka"
   },
   {
     "name": "Blacephalon",
     "type": ["Fuego", "Fantasma"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Blacephalon"
   },
   {
     "name": "Zeraora",
     "type": ["Eléctrico"],
-    "hasCustomName": false,
+    "hasCustomName": true,
     "image": "Zeraora"
   },
   {
