@@ -28,61 +28,58 @@
     document.addEventListener("DOMContentLoaded", () => {
       const audio = document.getElementById("audio");
 
-      // 🔹 Precarga el audio para que empiece más rápido
-      audio.preload = "auto";
-      audio.volume = 0.3;
-      audio.load();
+      // Detectar si es un dispositivo móvil
+      const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
-      // 🔹 Crear botón visible para activar la música en móviles
-      const musicBtn = document.createElement("button");
-      musicBtn.textContent = "🔊 Música";
-      musicBtn.id = "music-btn";
-
-      // Estilos del botón
-      Object.assign(musicBtn.style, {
-        position: "fixed",
-        top: "60px", // 🔹 lo movemos más abajo del título
-        padding: "8px 14px",
-        borderRadius: "8px",
-        background: "rgba(43, 43, 43, 0.85)",
-        color: "white",
-        border: "1px solid #555",
-        cursor: "pointer",
-        zIndex: "1000",
-        fontSize: "15px",
-        backdropFilter: "blur(4px)",
-        transition: "all 0.2s ease",
-      });
-
-      musicBtn.addEventListener("mouseenter", () => {
-        musicBtn.style.background = "rgba(70, 70, 70, 0.9)";
-      });
-      musicBtn.addEventListener("mouseleave", () => {
-        musicBtn.style.background = "rgba(43, 43, 43, 0.85)";
-      });
-
-      // 🔹 Solo mostrar el botón en celulares
-      if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
-        document.body.appendChild(musicBtn);
-      }
-
-      // 🔹 Al hacer clic o tocar el botón, activar la música
-      const startAudio = () => {
-        audio.play().then(() => {
-          musicBtn.remove(); // elimina el botón después de activarla
-        }).catch(err => {
-          console.log("Esperando interacción directa del usuario:", err);
+      if (isMobile) {
+        // 🎵 En móviles: mostrar botón manual
+        const musicBtn = document.createElement("button");
+        musicBtn.textContent = "🎵 Reproducir música";
+        Object.assign(musicBtn.style, {
+          position: "fixed",
+          top: "60px", // 🔹 lo movemos más abajo del título
+          padding: "8px 14px",
+          borderRadius: "8px",
+          background: "rgba(43, 43, 43, 0.85)",
+          color: "white",
+          border: "1px solid #555",
+          cursor: "pointer",
+          zIndex: "1000",
+          fontSize: "15px",
+          backdropFilter: "blur(4px)",
+          transition: "all 0.2s ease",
         });
-      };
 
-      musicBtn.addEventListener("click", startAudio);
+        // 🧠 Posicionar el botón justo debajo del título
+        const titleImg = document.getElementById("Imagendeltítulo");
+        titleImg.addEventListener("load", () => {
+          const rect = titleImg.getBoundingClientRect();
+          musicBtn.style.top = `${rect.bottom + 10}px`;
+        });
 
-      // 🔹 En PC, iniciar al primer clic o interacción
-      if (!/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
-        document.addEventListener("click", startAudio, { once: true });
+        // Acción al hacer clic
+        musicBtn.addEventListener("click", () => {
+          audio.play().then(() => {
+            musicBtn.remove();
+          }).catch(err => console.log("No se pudo reproducir el audio:", err));
+        });
+
+        document.body.appendChild(musicBtn);
+      } else {
+        // 💻 En PC: reproducir al primer clic o scroll
+        const startAudio = () => {
+          audio.play().catch(err => {
+            console.log("Esperando interacción del usuario para reproducir música.");
+          });
+          document.removeEventListener("click", startAudio);
+          document.removeEventListener("scroll", startAudio);
+        };
+
+        document.addEventListener("click", startAudio);
+        document.addEventListener("scroll", startAudio);
       }
     });
-    </script>
+</script>
 
     <script>
       // Tu código original de los filtros
